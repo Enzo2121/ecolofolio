@@ -89,10 +89,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
-            <h3 class="font-semibold">Maîtrise de WordPress</h3>
+            <h3 class="font-semibold">Développer la présence en ligne</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Apprentissage de l'administration WordPress, de la gestion des thèmes et plugins, et des bonnes pratiques de développement.
+            Participation à la gestion d'un projet de présence en ligne via la création d'un site WordPress complet et personnalisé.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -100,10 +100,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
-            <h3 class="font-semibold">Intégration de Paiement</h3>
+            <h3 class="font-semibold">Gérer le patrimoine informatique</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Implémentation de traitement de paiement sécurisé avec l'API Stripe et gestion des flux de paiement.
+            Exploitation des référentiels, normes et standards WordPress pour créer et maintenir un site web professionnel.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -111,7 +111,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
-            <h3 class="font-semibold">Développement PHP</h3>
+            <h3 class="font-semibold">Développer une solution applicative</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
             Utilisation du langage PHP pour personnaliser certains aspects du site et comprendre le fonctionnement interne de WordPress.
@@ -122,10 +122,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
-            <h3 class="font-semibold">Gestion de Base de Données</h3>
+            <h3 class="font-semibold">Mettre à disposition un service</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Configuration et gestion d'une base de données MySQL, compréhension de la structure des tables WordPress.
+            Configuration et gestion d'une base de données MySQL, déploiement et mise en ligne du site pour les utilisateurs.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -133,10 +133,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
-            <h3 class="font-semibold">Déploiement Web</h3>
+            <h3 class="font-semibold">Travailler en mode projet</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Installation et configuration d'un environnement de développement local, puis déploiement sur un serveur web.
+            Participation à un projet informatique complet, de la conception à la mise en production, en respectant les délais et exigences.
           </p>
         </div>
       </div>
@@ -295,4 +295,4 @@ function resetZoom() {
 
 <style scoped>
 /* Add any custom styles here */
-</style> 
+</style>

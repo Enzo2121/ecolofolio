@@ -53,7 +53,7 @@
             <polyline points="16 18 22 12 16 6"></polyline>
             <polyline points="8 6 2 12 8 18"></polyline>
           </svg>
-          <span class="text-sm font-medium">Vue.js</span>
+          <span class="text-sm font-medium">Framer</span>
         </div>
         <div class="flex flex-col items-center space-y-2 rounded-lg border p-4">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8">
@@ -63,21 +63,7 @@
             <path d="M8 11h.01"></path>
             <path d="M8 16h.01"></path>
           </svg>
-          <span class="text-sm font-medium">Node.js</span>
-        </div>
-        <div class="flex flex-col items-center space-y-2 rounded-lg border p-4">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8">
-            <path d="M3 5v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2z"></path>
-            <path d="M3 10h18"></path>
-            <path d="M10 3v18"></path>
-          </svg>
-          <span class="text-sm font-medium">MongoDB</span>
-        </div>
-        <div class="flex flex-col items-center space-y-2 rounded-lg border p-4">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8">
-            <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
-          </svg>
-          <span class="text-sm font-medium">Stripe</span>
+          <span class="text-sm font-medium">Figma</span>
         </div>
       </div>
     </div>
@@ -91,10 +77,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
-            <h3 class="font-semibold">Développement E-commerce</h3>
+            <h3 class="font-semibold">Développer la présence en ligne</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Acquis de l'expérience dans la création de solutions e-commerce complètes, incluant catalogues de produits, paniers d'achat et processus de paiement.
+            Participation à la gestion d'un projet de présence en ligne en développant une plateforme e-commerce complète pour une entreprise artisanale.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -102,10 +88,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
-            <h3 class="font-semibold">Intégration de Paiement</h3>
+            <h3 class="font-semibold">Développer une solution applicative</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Appris à intégrer des systèmes de traitement de paiement sécurisés et à gérer les transactions financières en toute sécurité.
+            Conception et développement d'une solution e-commerce incluant catalogues de produits, paniers d'achat et processus de paiement sécurisé.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -113,10 +99,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
-            <h3 class="font-semibold">Design Responsive</h3>
+            <h3 class="font-semibold">Mettre à disposition un service</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Développé des compétences dans la création de mises en page responsives qui offrent une expérience de visualisation optimale sur une large gamme d'appareils.
+            Mise en œuvre d'une solution technique répondant aux besoins de l'entreprise avec un design responsive adapté à tous les appareils.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -124,10 +110,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
-            <h3 class="font-semibold">Gestion des Stocks</h3>
+            <h3 class="font-semibold">Gérer le patrimoine informatique</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Mis en place des systèmes pour suivre l'inventaire des produits, gérer les niveaux de stock et automatiser les notifications de réapprovisionnement.
+            Mise en place de systèmes pour suivre l'inventaire des produits, gérer les niveaux de stock et automatiser les notifications de réapprovisionnement.
           </p>
         </div>
       </div>
@@ -217,4 +203,4 @@
 
 <style scoped>
 /* Add any custom styles here */
-</style> 
+</style>

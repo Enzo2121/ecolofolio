@@ -89,10 +89,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
-            <h3 class="font-semibold">Développement Web</h3>
+            <h3 class="font-semibold">Développer une solution applicative</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Maîtrise du développement web avec PHP et intégration de frameworks CSS comme Bootstrap.
+            Conception et développement d'une application web complète pour la gestion d'une AMAP avec PHP et MySQL.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -100,10 +100,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
-            <h3 class="font-semibold">Gestion de Base de Données</h3>
+            <h3 class="font-semibold">Gérer le patrimoine informatique</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Conception et optimisation de bases de données MySQL avec PhpMyAdmin pour stocker et gérer les données.
+            Gestion des ressources numériques et mise en place d'une base de données optimisée pour les besoins spécifiques de l'AMAP.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -111,10 +111,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
-            <h3 class="font-semibold">Conception d'Interfaces Utilisateur</h3>
+            <h3 class="font-semibold">Mettre à disposition un service</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Création d'interfaces intuitives et accessibles pour améliorer l'expérience utilisateur.
+            Mise en œuvre d'une solution technique répondant aux besoins des utilisateurs avec une interface intuitive et responsive.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -122,10 +122,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
-            <h3 class="font-semibold">Collaboration en Équipe</h3>
+            <h3 class="font-semibold">Travailler en mode projet</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Travail efficace en équipe avec une communication claire et une répartition équilibrée des tâches.
+            Participation à un projet informatique en équipe en utilisant la méthode Agile pour une gestion efficace des tâches et des délais.
           </p>
         </div>
       </div>
@@ -272,4 +272,4 @@ function resetZoom() {
 
 <style scoped>
 /* Add any custom styles here */
-</style> 
+</style>

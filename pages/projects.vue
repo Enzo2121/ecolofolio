@@ -54,39 +54,39 @@
 const projects = [
   {
     id: '1',
-    title: 'Application de Gestion de Tâches',
-    category: 'Web App',
+    title: 'Site web Quiconces',
+    category: 'site web',
     date: '2023',
     image: '/quiconces.png',
-    description: 'Une application web de gestion de tâches avec des fonctionnalités de création, modification et suppression de tâches, ainsi que des catégories et des priorités.',
-    technologies: ['Vue.js', 'Tailwind CSS', 'Firebase'],
+    description: 'Un site web pédagogique pour les Quiconces',
+    technologies: ['WordPress', 'PHP', 'MySQL'],
     route: '/AP1'
   },
   {
     id: '2',
-    title: 'Site Web E-commerce',
-    category: 'E-commerce',
-    date: '2022',
+    title: 'Site Web Champ Bio',
+    category: 'site web',
+    date: '2024',
     image: '/champbio.png',
     description: 'Un site web e-commerce complet avec un catalogue de produits, un panier d\'achat, un système de paiement et un tableau de bord administrateur.',
-    technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+    technologies: ['PHP', 'phpMyAdmin', 'Tailwind CSS'],
     route: '/AP2'
   },
   {
     id: '3',
-    title: 'Application Mobile Fitness',
-    category: 'Mobile App',
-    date: '2022 - Présent',
+    title: 'Projet personnage',
+    category: 'site web',
+    date: '2024',
     image: '/cars.png',
     description: 'Une application mobile de suivi fitness permettant aux utilisateurs de suivre leurs entraînements, leur progression et leurs objectifs de remise en forme.',
-    technologies: ['React Native', 'Redux', 'Firebase'],
+    technologies: ['php', 'phpMyAdmin', 'Tailwind CSS'],
     route: '/AP3'
   },
   {
     id: '4',
-    title: 'Blog Personnel',
-    category: 'Web',
-    date: '2021',
+    title: 'SCISS',
+    category: 'site web',
+    date: '2023',
     image: '/wordpress.png',
     description: 'Un blog personnel où je partage mes connaissances et mes expériences dans le domaine du développement web et de la technologie.',
     technologies: ['WordPress', 'PHP', 'MySQL'],
@@ -94,12 +94,12 @@ const projects = [
   },
   {
     id: '5',
-    title: 'Portfolio Personnel',
-    category: 'Web',
-    date: '2023',
+    title: 'Application Lourde c#',
+    category: 'application lourde',
+    date: '2025',
     image: '/portfolio.png',
     description: 'Mon portfolio personnel présentant mes projets, compétences et expériences professionnelles.',
-    technologies: ['Nuxt.js', 'Vue.js', 'Tailwind CSS'],
+    technologies: ['c#', 'sql', 'phpMyAdmin'],
     route: '/AP5'
   }
 ];

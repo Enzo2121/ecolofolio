@@ -52,7 +52,7 @@
             <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
             <line x1="12" y1="17" x2="12.01" y2="17"></line>
           </svg>
-          <span class="text-sm font-medium">React</span>
+          <span class="text-sm font-medium">Nuxt 3</span>
         </div>
         <div class="flex flex-col items-center space-y-2 rounded-lg border p-4">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8">
@@ -65,14 +65,14 @@
             <line x1="4.93" y1="19.07" x2="7.76" y2="16.24"></line>
             <line x1="16.24" y1="7.76" x2="19.07" y2="4.93"></line>
           </svg>
-          <span class="text-sm font-medium">Three.js</span>
+          <span class="text-sm font-medium">Nuxt Studio</span>
         </div>
         <div class="flex flex-col items-center space-y-2 rounded-lg border p-4">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8">
             <path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path>
             <line x1="2" y1="20" x2="2" y2="20"></line>
           </svg>
-          <span class="text-sm font-medium">Firebase</span>
+          <span class="text-sm font-medium">Nuxt Content</span>
         </div>
         <div class="flex flex-col items-center space-y-2 rounded-lg border p-4">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-8 w-8">
@@ -92,10 +92,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
-            <h3 class="font-semibold">Développement Web 3D</h3>
+            <h3 class="font-semibold">Développer la présence en ligne</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Acquis de l'expérience dans la création d'environnements 3D interactifs pour le web en utilisant Three.js, y compris des visites virtuelles de galerie.
+            Participation à la gestion d'un service de présence en ligne en développant une plateforme numérique pour présenter les œuvres des artistes.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -103,10 +103,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
-            <h3 class="font-semibold">Collaboration en Équipe</h3>
+            <h3 class="font-semibold">Travailler en mode projet</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Développé des compétences pour travailler efficacement en équipe, incluant les revues de code, le contrôle de version et la résolution collaborative de problèmes.
+            Participation à un projet informatique en équipe avec une répartition des tâches, des revues de code et une résolution collaborative des problèmes.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -114,10 +114,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
-            <h3 class="font-semibold">Gestion de Contenu</h3>
+            <h3 class="font-semibold">Développer une solution applicative</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Appris à concevoir et à mettre en œuvre des systèmes de gestion de contenu permettant aux utilisateurs non techniques de mettre à jour le contenu du site web.
+            Conception et développement d'environnements 3D interactifs pour le web et mise en place d'une galerie virtuelle avec Nuxt 3.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -125,10 +125,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
-            <h3 class="font-semibold">Systèmes de Gestion d'Événements</h3>
+            <h3 class="font-semibold">Organiser son développement professionnel</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Développé des fonctionnalités pour planifier, promouvoir et gérer des événements culturels, y compris l'inscription et le suivi des présences.
+            Développement de compétences techniques et collaboratives à travers l'apprentissage de nouveaux frameworks et méthodologies de travail.
           </p>
         </div>
       </div>
@@ -218,4 +218,4 @@
 
 <style scoped>
 /* Add any custom styles here */
-</style> 
+</style>

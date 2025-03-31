@@ -90,10 +90,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
-            <h3 class="font-semibold">Création de Maquettes</h3>
+            <h3 class="font-semibold">Développer une solution applicative</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Conception et réalisation de maquettes pour visualiser l'interface utilisateur avant le développement.
+            Conception et développement d'une application web dynamique en PHP avec une base de données SQL pour la gestion des données.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -101,10 +101,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
-            <h3 class="font-semibold">Développement Web</h3>
+            <h3 class="font-semibold">Mettre à disposition un service</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Maîtrise des langages HTML, PHP et des requêtes SQL pour créer des applications web dynamiques.
+            Participation à la qualification des besoins et mise en œuvre d'une solution technique répondant aux exigences fonctionnelles.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -112,10 +112,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
-            <h3 class="font-semibold">Collaboration en Équipe</h3>
+            <h3 class="font-semibold">Travailler en mode projet</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Travail efficace en équipe avec une communication claire et une répartition équilibrée des tâches.
+            Participation active à un projet informatique en équipe en utilisant la méthode Agile pour une gestion efficace des tâches.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -123,10 +123,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
-            <h3 class="font-semibold">Gestion du Temps</h3>
+            <h3 class="font-semibold">Répondre aux incidents et demandes</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Planification et respect des délais dans le cadre d'une méthodologie Agile.
+            Mise en place d'un système CRUD complet permettant de traiter les demandes d'évolution et de résoudre les incidents.
           </p>
         </div>
       </div>
@@ -273,4 +273,4 @@ function resetZoom() {
 
 <style scoped>
 /* Add any custom styles here */
-</style> 
+</style>

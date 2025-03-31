@@ -60,32 +60,44 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
-            <h3 class="font-semibold">Création de maquettes</h3>
+            <h3 class="font-semibold">Développer la présence en ligne</h3>
           </div>
+          <p class="mt-2 text-sm text-muted-foreground">
+            Participation à la gestion d'un projet de présence en ligne à travers la création de maquettes et l'utilisation d'outils CMS.
+          </p>
         </div>
         <div class="rounded-lg border p-4">
           <div class="flex items-center space-x-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
-            <h3 class="font-semibold">Développement web</h3>
+            <h3 class="font-semibold">Travailler en mode projet</h3>
           </div>
+          <p class="mt-2 text-sm text-muted-foreground">
+            Participation à un projet informatique en équipe en utilisant la méthode Agile pour une gestion efficace du temps et des ressources.
+          </p>
         </div>
         <div class="rounded-lg border p-4">
           <div class="flex items-center space-x-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
-            <h3 class="font-semibold">Collaboration en équipe</h3>
+            <h3 class="font-semibold">Mettre à disposition un service</h3>
           </div>
+          <p class="mt-2 text-sm text-muted-foreground">
+            Participation à la qualification des besoins et à la mise en œuvre d'une solution technique adaptée aux exigences du projet.
+          </p>
         </div>
         <div class="rounded-lg border p-4">
           <div class="flex items-center space-x-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
-            <h3 class="font-semibold">Gestion du temps</h3>
+            <h3 class="font-semibold">Organiser son développement professionnel</h3>
           </div>
+          <p class="mt-2 text-sm text-muted-foreground">
+            Développement de compétences techniques et collaboratives à travers l'apprentissage de nouveaux outils et méthodologies.
+          </p>
         </div>
       </div>
     </div>
@@ -179,7 +191,7 @@
           Réinitialiser
         </button>
         <a :href="pdfUrl" download class="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-4 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 mr-2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 mr-2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
           Télécharger la Documentation
         </a>
       </div>
@@ -282,4 +294,4 @@ function resetZoom() {
 
 <style scoped>
 /* Add any custom styles here */
-</style> 
+</style>
