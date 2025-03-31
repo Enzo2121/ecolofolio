@@ -11,7 +11,38 @@ interface Article {
   topic: 'llm' | 'nuxt' | 'both';
 }
 
-// Define mock articles for development
+// Import the RSS Parser
+import Parser from 'rss-parser';
+
+// Define RSS feed sources
+const rssSources = [
+  {
+    url: 'https://medium.com/feed/tag/large-language-models',
+    source: 'Medium',
+    sourceUrl: 'https://medium.com',
+    topic: 'llm' as const
+  },
+  {
+    url: 'https://dev.to/feed/tag/llm',
+    source: 'DEV.to',
+    sourceUrl: 'https://dev.to',
+    topic: 'llm' as const
+  },
+  {
+    url: 'https://blog.nuxtjs.org/feed.xml',
+    source: 'Nuxt Blog',
+    sourceUrl: 'https://blog.nuxtjs.org',
+    topic: 'nuxt' as const
+  },
+  {
+    url: 'https://dev.to/feed/tag/nuxtjs',
+    source: 'DEV.to',
+    sourceUrl: 'https://dev.to',
+    topic: 'nuxt' as const
+  }
+];
+
+// Define mock articles for fallback
 const mockArticles: Article[] = [
   {
     title: "Les avancées récentes de GPT-4o et leur impact sur le développement web",
@@ -135,6 +166,40 @@ const mockArticles: Article[] = [
   }
 ];
 
+// Helper function to extract image URL from content if available
+const extractImageUrl = (content: string | undefined): string | undefined => {
+  if (!content) return undefined;
+  
+  // Try to find an image URL in the content
+  const imgMatch = content.match(/<img[^>]+src="([^">]+)"/i);
+  return imgMatch ? imgMatch[1] : undefined;
+};
+
+// Helper function to determine topic based on content and categories
+const determineTopic = (item: any, defaultTopic: 'llm' | 'nuxt' | 'both'): 'llm' | 'nuxt' | 'both' => {
+  const content = (item.content || item.contentSnippet || '').toLowerCase();
+  const categories = item.categories || [];
+  
+  const llmKeywords = ['llm', 'large language model', 'gpt', 'chatgpt', 'openai', 'claude', 'mistral', 'llama'];
+  const nuxtKeywords = ['nuxt', 'vue', 'vuejs', 'vue.js', 'nuxtjs', 'nuxt.js'];
+  
+  const hasLLM = llmKeywords.some(keyword => 
+    content.includes(keyword) || 
+    categories.some((cat: string) => cat.toLowerCase().includes(keyword))
+  );
+  
+  const hasNuxt = nuxtKeywords.some(keyword => 
+    content.includes(keyword) || 
+    categories.some((cat: string) => cat.toLowerCase().includes(keyword))
+  );
+  
+  if (hasLLM && hasNuxt) return 'both';
+  if (hasLLM) return 'llm';
+  if (hasNuxt) return 'nuxt';
+  
+  return defaultTopic;
+};
+
 export default defineEventHandler(async (event) => {
   try {
     // Get query parameters
@@ -142,30 +207,79 @@ export default defineEventHandler(async (event) => {
     const topic = query.topic as string || 'all';
     const limit = parseInt(query.limit as string || '20');
     
-    // In a production environment, you would fetch real RSS feeds here
-    // For now, we'll use mock data
+    // Initialize RSS parser
+    const parser = new Parser();
+    let allArticles: Article[] = [];
+    
+    try {
+      // Fetch articles from RSS feeds
+      const fetchPromises = rssSources.map(async (source) => {
+        try {
+          const feed = await parser.parseURL(source.url);
+          
+          return feed.items.map(item => {
+            const pubDate = item.pubDate || item.isoDate || new Date().toISOString();
+            const determinedTopic = determineTopic(item, source.topic);
+            
+            return {
+              title: item.title || 'Sans titre',
+              link: item.link || '',
+              pubDate,
+              contentSnippet: item.contentSnippet || item.summary || '',
+              categories: item.categories || [],
+              source: source.source,
+              sourceUrl: source.sourceUrl,
+              imageUrl: item.enclosure?.url || extractImageUrl(item.content),
+              topic: determinedTopic
+            } as Article;
+          });
+        } catch (error) {
+          console.error(`Error fetching from ${source.url}:`, error);
+          return [];
+        }
+      });
+      
+      // Wait for all feeds to be fetched
+      const articlesArrays = await Promise.all(fetchPromises);
+      allArticles = articlesArrays.flat();
+      
+      // If no articles were fetched, use mock data as fallback
+      if (allArticles.length === 0) {
+        console.warn('No articles fetched from RSS feeds, using mock data');
+        allArticles = [...mockArticles];
+      }
+    } catch (error) {
+      console.error('Error fetching RSS feeds:', error);
+      // Fallback to mock data
+      allArticles = [...mockArticles];
+    }
+    
+    // Sort articles by publication date (newest first)
+    allArticles.sort((a, b) => 
+      new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime()
+    );
     
     // Filter articles based on topic
-    let articles = [...mockArticles];
+    let filteredArticles = [...allArticles];
     
     if (topic !== 'all') {
-      articles = articles.filter(article => 
+      filteredArticles = filteredArticles.filter(article => 
         article.topic === topic || article.topic === 'both'
       );
     }
     
     // Limit the number of articles
-    articles = articles.slice(0, limit);
+    filteredArticles = filteredArticles.slice(0, limit);
     
     return {
       success: true,
-      articles,
+      articles: filteredArticles,
     };
   } catch (error) {
-    console.error('Error fetching articles:', error);
+    console.error('Error in articles API:', error);
     return {
       success: false,
       error: 'Failed to fetch articles',
     };
   }
-}); 
+});
