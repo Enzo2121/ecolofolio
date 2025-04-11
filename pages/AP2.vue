@@ -5,9 +5,9 @@
       <div class="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Projet</div>
       <h1 class="text-4xl font-bold tracking-tighter">Site Portfolio</h1>
       <div class="flex flex-wrap items-center gap-2">
-        <span class="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">Vue.js</span>
-        <span class="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">Tailwind CSS</span>
-        <span class="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">Netlify</span>
+        <span class="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">Framer</span>
+        <span class="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">Figma</span>
+        <span class="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">Web Design</span>
       </div>
     </div>
 
@@ -30,7 +30,7 @@
 
     <!-- Key Features -->
     <div class="space-y-4">
-      <h2 class="text-2xl font-bold">Outils Travaillés</h2>
+      <h2 class="text-2xl font-bold">Outils</h2>
       <div class="grid gap-4 sm:grid-cols-2">
         <div class="rounded-lg border p-4">
           <div class="flex items-center space-x-2">
@@ -157,15 +157,15 @@
     <div class="space-y-4">
       <h2 class="text-2xl font-bold">Détails Techniques</h2>
       <div class="text-muted-foreground">
-        <p>Le site portfolio a été construit en utilisant les technologies et méthodologies suivantes :</p>
+        <p>Le site portfolio a été créé en utilisant Framer, un outil de conception et de développement web moderne :</p>
         <ul class="list-disc pl-5 mt-2 space-y-1">
-          <li>Vue.js pour le framework frontend</li>
-          <li>Tailwind CSS pour le style et le design responsive</li>
-          <li>Netlify pour l'hébergement et les fonctions serverless</li>
-          <li>Cloudinary pour la gestion et l'optimisation des images</li>
-          <li>Markdown pour la gestion du contenu du blog</li>
-          <li>Netlify Forms pour la fonctionnalité du formulaire de contact</li>
-          <li>Lighthouse pour l'optimisation des performances et les tests</li>
+          <li>Interface glisser-déposer de Framer pour la conception visuelle du site</li>
+          <li>Composants préconstruits de Framer pour accélérer le développement</li>
+          <li>Animations et transitions fluides intégrées à Framer</li>
+          <li>Responsive design adapté à tous les appareils</li>
+          <li>Hébergement automatique via Framer Sites</li>
+          <li>Intégration avec Figma pour la conception préliminaire</li>
+          <li>Optimisation SEO de base pour améliorer la visibilité du site</li>
         </ul>
       </div>
     </div>

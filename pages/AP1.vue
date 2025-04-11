@@ -3,7 +3,7 @@
     <!-- Header -->
     <div class="space-y-4">
       <div class="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Projet BTS SIO</div>
-      <h1 class="text-4xl font-bold tracking-tighter">Site WordPress</h1>
+      <h1 class="text-4xl font-bold tracking-tighter">Site WordPress - SCISS</h1>
       <div class="flex flex-wrap items-center gap-2">
         <span class="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">WordPress</span>
         <span class="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">PHP</span>
@@ -24,24 +24,24 @@
     <div class="space-y-4">
       <h2 class="text-2xl font-bold">Aperçu du Projet</h2>
       <div class="text-muted-foreground">
-        <p>Lors de ce premier projet de BTS SIO, j'ai appris à utiliser l'outil WordPress pour créer un site web complet. L'objectif du projet était de mettre en place un site WordPress avec une base de données et de le personnaliser selon certains critères d'évaluation.</p>
-        <p class="mt-4">Le projet m'a permis de me familiariser avec l'écosystème WordPress, la gestion de contenu, l'installation et la configuration de thèmes et plugins, ainsi que les bases de la personnalisation PHP pour adapter le site aux besoins spécifiques. J'ai également appris à gérer une base de données MySQL pour stocker et organiser efficacement les informations du site.</p>
+        <p>Ce projet WordPress a été mon premier pas dans le développement web durant mon BTS SIO. Il s'agissait d'une introduction pratique au développement web où nous avons exclusivement utilisé WordPress et phpMyAdmin pour créer un site complet.</p>
+        <p class="mt-4">L'objectif principal était double : nous initier aux bases du développement web et nous apprendre à rédiger une documentation technique professionnelle. Ce projet m'a permis de comprendre les fondamentaux de la gestion de contenu web, l'importance d'une base de données bien structurée, et les principes de la documentation technique.</p>
       </div>
     </div>
 
     <!-- Key Features -->
     <div class="space-y-4">
-      <h2 class="text-2xl font-bold">Fonctionnalités Clés</h2>
+      <h2 class="text-2xl font-bold">Éléments du Projet</h2>
       <div class="grid gap-4 sm:grid-cols-2">
         <div class="rounded-lg border p-4">
           <div class="flex items-center space-x-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
-            <h3 class="font-semibold">Gestion de Contenu</h3>
+            <h3 class="font-semibold">Installation WordPress</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Mise en place d'un système de gestion de contenu intuitif permettant de créer et organiser facilement les pages et articles.
+            Configuration initiale de WordPress, création de la base de données via phpMyAdmin et paramétrage des options fondamentales du site.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -49,10 +49,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
-            <h3 class="font-semibold">Thème Personnalisé</h3>
+            <h3 class="font-semibold">Choix et Adaptation du Thème</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Personnalisation d'un thème WordPress pour répondre aux exigences spécifiques du projet et créer une identité visuelle unique.
+            Sélection d'un thème WordPress adapté au projet et personnalisation basique pour répondre aux exigences demandées.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -60,10 +60,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
-            <h3 class="font-semibold">Extensions Intégrées</h3>
+            <h3 class="font-semibold">Création de Contenu</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Sélection et configuration de plugins WordPress pour étendre les fonctionnalités du site selon les besoins du projet.
+            Élaboration des pages nécessaires au site, utilisation des fonctionnalités de base de l'éditeur WordPress.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -71,10 +71,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
-            <h3 class="font-semibold">Base de Données Optimisée</h3>
+            <h3 class="font-semibold">Documentation Technique</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Configuration et optimisation de la base de données MySQL pour assurer des performances optimales et une bonne organisation des données.
+            Rédaction d'une documentation complète expliquant les étapes d'installation, la structure du site et les choix techniques effectués.
           </p>
         </div>
       </div>
@@ -89,21 +89,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
-            <h3 class="font-semibold">Développer la présence en ligne</h3>
-          </div>
-          <p class="mt-2 text-sm text-muted-foreground">
-            Participation à la gestion d'un projet de présence en ligne via la création d'un site WordPress complet et personnalisé.
-          </p>
-        </div>
-        <div class="rounded-lg border p-4">
-          <div class="flex items-center space-x-2">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
-              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-            </svg>
             <h3 class="font-semibold">Gérer le patrimoine informatique</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Exploitation des référentiels, normes et standards WordPress pour créer et maintenir un site web professionnel.
+            Exploitation des référentiels, normes et standards WordPress pour configurer et maintenir un site web fonctionnel.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -111,21 +100,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
-            <h3 class="font-semibold">Développer une solution applicative</h3>
+            <h3 class="font-semibold">Développer la présence en ligne</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Utilisation du langage PHP pour personnaliser certains aspects du site et comprendre le fonctionnement interne de WordPress.
-          </p>
-        </div>
-        <div class="rounded-lg border p-4">
-          <div class="flex items-center space-x-2">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
-              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-            </svg>
-            <h3 class="font-semibold">Mettre à disposition un service</h3>
-          </div>
-          <p class="mt-2 text-sm text-muted-foreground">
-            Configuration et gestion d'une base de données MySQL, déploiement et mise en ligne du site pour les utilisateurs.
+            Participation à l'évolution d'un site Web exploitant les données de l'organisation et valorisation de son image sur les médias numériques.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -136,7 +114,29 @@
             <h3 class="font-semibold">Travailler en mode projet</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Participation à un projet informatique complet, de la conception à la mise en production, en respectant les délais et exigences.
+            Analyse des objectifs et modalités d'organisation du projet, planification des activités et évaluation des indicateurs de suivi.
+          </p>
+        </div>
+        <div class="rounded-lg border p-4">
+          <div class="flex items-center space-x-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+            <h3 class="font-semibold">Mettre à disposition un service</h3>
+          </div>
+          <p class="mt-2 text-sm text-muted-foreground">
+            Réalisation des tests d'intégration et d'acceptation du site WordPress, déploiement du service et accompagnement des utilisateurs.
+          </p>
+        </div>
+        <div class="rounded-lg border p-4">
+          <div class="flex items-center space-x-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+            <h3 class="font-semibold">Organiser son développement professionnel</h3>
+          </div>
+          <p class="mt-2 text-sm text-muted-foreground">
+            Mise en place d'un environnement d'apprentissage personnel et mise en œuvre d'outils de veille sur les technologies WordPress et PHP.
           </p>
         </div>
       </div>
@@ -145,22 +145,20 @@
     <!-- Project Timeline -->
     <div class="space-y-4">
       <h2 class="text-2xl font-bold">Période du Projet</h2>
-      <div class="text-muted-foreground">Septembre 2022 - Décembre 2022</div>
+      <div class="text-muted-foreground">Premier semestre de BTS SIO</div>
     </div>
 
     <!-- Technical Details -->
     <div class="space-y-4">
       <h2 class="text-2xl font-bold">Détails Techniques</h2>
       <div class="text-muted-foreground">
-        <p>La plateforme e-commerce a été construite en utilisant les technologies et méthodologies suivantes :</p>
+        <p>Ce projet a été réalisé en utilisant les technologies suivantes :</p>
         <ul class="list-disc pl-5 mt-2 space-y-1">
-          <li>Nuxt.js pour le rendu côté serveur et l'amélioration du SEO</li>
-          <li>Tailwind CSS pour des composants UI responsives et personnalisables</li>
-          <li>Pinia pour la gestion d'état</li>
-          <li>API Stripe pour le traitement des paiements</li>
-          <li>Supabase pour la base de données et l'authentification</li>
-          <li>Nuxt Image pour l'optimisation du chargement des images</li>
-          <li>Vitest pour les tests unitaires et d'intégration</li>
+          <li>WordPress 5.x comme système de gestion de contenu (CMS)</li>
+          <li>phpMyAdmin pour la gestion de la base de données MySQL</li>
+          <li>HTML/CSS pour les ajustements mineurs du thème</li>
+          <li>Plugins WordPress standards pour étendre les fonctionnalités de base</li>
+          <li>Serveur local WAMP/XAMPP pour le développement</li>
         </ul>
       </div>
     </div>
@@ -169,12 +167,14 @@
     <div class="space-y-4">
       <h2 class="text-2xl font-bold">Documentation Technique</h2>
       <div class="text-muted-foreground">
-        <p>La documentation technique du projet comprend :</p>
+        <p>Un aspect essentiel de ce projet était la rédaction d'une documentation technique complète comprenant :</p>
         <ul class="list-disc pl-5 mt-2">
-          <li>Guide d'installation et de configuration de WordPress</li>
-          <li>Documentation des plugins utilisés et leurs configurations</li>
-          <li>Structure de la base de données et relations entre les tables</li>
-          <li>Guide de personnalisation du thème</li>
+          <li>Procédure d'installation détaillée de WordPress</li>
+          <li>Configuration de la base de données avec phpMyAdmin</li>
+          <li>Explication des choix de thème et de plugins</li>
+          <li>Structure du site et organisation du contenu</li>
+          <li>Captures d'écran des principales étapes et fonctionnalités</li>
+          <li>Guide de maintenance et de mise à jour</li>
         </ul>
       </div>
       
