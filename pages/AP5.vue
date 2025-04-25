@@ -15,7 +15,7 @@
     <!-- Project Image -->
     <div class="aspect-video overflow-hidden rounded-lg border">
       <img
-        src="#"
+        src="/am2.png"
         alt="Application Client Lourd AMAP-BIO"
         class="h-full w-full object-cover"
       />
@@ -100,38 +100,24 @@
       </div>
     </div>
 
-
-
-
-
     <!-- Project Screenshots -->
     <div class="space-y-4">
       <h2 class="text-2xl font-bold">Captures d'Écran</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <a href="#" class="rounded-lg border overflow-hidden hover:shadow-md transition-shadow">
-          <div class="aspect-video bg-muted flex items-center justify-center">
-            <div class="text-center p-4">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-12 w-12 mx-auto text-muted-foreground">
-                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                <circle cx="8.5" cy="8.5" r="1.5"></circle>
-                <polyline points="21 15 16 10 5 21"></polyline>
-              </svg>
-              <p class="mt-2 text-sm text-muted-foreground">Interface de connexion</p>
-            </div>
-          </div>
-        </a>
-        <a href="#" class="rounded-lg border overflow-hidden hover:shadow-md transition-shadow">
-          <div class="aspect-video bg-muted flex items-center justify-center">
-            <div class="text-center p-4">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-12 w-12 mx-auto text-muted-foreground">
-                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                <circle cx="8.5" cy="8.5" r="1.5"></circle>
-                <polyline points="21 15 16 10 5 21"></polyline>
-              </svg>
-              <p class="mt-2 text-sm text-muted-foreground">Gestion des produits</p>
-            </div>
-          </div>
-        </a>
+      <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 gap-6">
+        <div class="rounded-lg border overflow-hidden hover:shadow-md transition-shadow">
+          <img
+            src="/am1.png"
+            alt="Capture d'écran 1 du projet AMAP-BIO Client Lourd"
+            class="aspect-video w-full object-cover"
+          />
+        </div>
+        <div class="rounded-lg border overflow-hidden hover:shadow-md transition-shadow">
+          <img
+            src="/am2.png"
+            alt="Capture d'écran 2 du projet AMAP-BIO Client Lourd"
+            class="aspect-video w-full object-cover"
+          />
+        </div>
       </div>
     </div>
 
@@ -195,4 +181,4 @@ function resetZoom() {
 
 <style scoped>
 /* Add any custom styles here */
-</style> 
+</style>
