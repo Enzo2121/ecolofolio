@@ -50,57 +50,57 @@
 </template>
 
 <script setup>
-// Données des projets
+// Données des projets mises à jour
 const projects = [
   {
     id: '1',
-    title: 'Site web Quiconces',
+    title: 'Site WordPress - SCISS', // AP1
     category: 'site web',
     date: '2023',
-    image: '/quiconces.png',
-    description: 'Un site web pédagogique pour les Quiconces',
+    image: '/wordpress.png',
+    description: 'Introduction au développement web avec WordPress et phpMyAdmin, incluant la rédaction de documentation technique.',
     technologies: ['WordPress', 'PHP', 'MySQL'],
     route: '/AP1'
   },
   {
     id: '2',
-    title: 'Site Web Champ Bio',
+    title: 'Site Quiconces', // AP2
     category: 'site web',
-    date: '2024',
-    image: '/champbio.png',
-    description: 'Un site web e-commerce complet avec un catalogue de produits, un panier d\'achat, un système de paiement et un tableau de bord administrateur.',
-    technologies: ['PHP', 'phpMyAdmin', 'Tailwind CSS'],
+    date: '2023', // Assuming date based on AP1, adjust if needed
+    image: '/quiconces.png',
+    description: 'Recréation d\'un site web en utilisant le CMS Framer, suite à un atelier professionnel.',
+    technologies: ['Framer', 'Figma', 'Web Design'],
     route: '/AP2'
   },
   {
     id: '3',
-    title: 'Projet personnage',
+    title: 'AP PHP (Cars)', // AP3
     category: 'site web',
     date: '2024',
     image: '/cars.png',
-    description: 'Une application mobile de suivi fitness permettant aux utilisateurs de suivre leurs entraînements, leur progression et leurs objectifs de remise en forme.',
-    technologies: ['php', 'phpMyAdmin', 'Tailwind CSS'],
+    description: 'Site web dynamique en PHP avec base de données SQL, incluant CRUD et authentification.',
+    technologies: ['PHP', 'SQL', 'Bootstrap', 'HTML'],
     route: '/AP3'
   },
   {
     id: '4',
-    title: 'SCISS',
+    title: 'Site Web AMAP (ChampBio)', // AP4
     category: 'site web',
-    date: '2023',
-    image: '/wordpress.png',
-    description: 'Un blog personnel où je partage mes connaissances et mes expériences dans le domaine du développement web et de la technologie.',
-    technologies: ['WordPress', 'PHP', 'MySQL'],
+    date: '2024', // Assuming date based on AP3, adjust if needed
+    image: '/champbio.png',
+    description: 'Site web pour une AMAP permettant la gestion des adhésions et la sélection de paniers.',
+    technologies: ['PHP', 'Tailwind', 'PhpMyAdmin', 'MySQL'],
     route: '/AP4'
   },
   {
     id: '5',
-    title: 'Application Lourde c#',
+    title: 'Application Client Lourd AMAP-BIO', // AP5
     category: 'application lourde',
     date: '2025',
-    image: '/portfolio.png',
-    description: 'Mon portfolio personnel présentant mes projets, compétences et expériences professionnelles.',
-    technologies: ['c#', 'sql', 'phpMyAdmin'],
+    image: '/am2.png', // Using one of the screenshots from AP5
+    description: 'Application C# pour la gestion interne (adhésions, paniers, prix) de l\'AMAP-BIO, connectée à la même base de données que le site web.',
+    technologies: ['C#', 'Visual Studio', 'MySQL', 'PhpMyAdmin'],
     route: '/AP5'
   }
 ];
-</script> 
+</script>

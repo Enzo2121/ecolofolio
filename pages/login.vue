@@ -49,8 +49,10 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
-import { useAuth } from '~/composables/useAuth';
+import { ref, onMounted } from 'vue';
+// Import the new composable
+import { useAuth } from '~/composables/useAuth'; 
+import { navigateTo } from '#app';
 
 const auth = useAuth();
 const username = ref('');
@@ -58,21 +60,26 @@ const password = ref('');
 const isLoading = ref(false);
 const error = ref('');
 
-// Redirect if already logged in
-if (auth.isAuthenticated.value) {
-  navigateTo('/');
-}
+// Check auth state on component mount (client-side)
+onMounted(() => {
+  auth.checkAuthState();
+  // Redirect if already logged in after checking state
+  if (auth.isAuthenticated.value) {
+    navigateTo('/');
+  }
+});
 
 const handleLogin = async () => {
   try {
     isLoading.value = true;
     error.value = '';
     
+    // Use the login function from the composable
     const result = await auth.login(username.value, password.value);
     
     if (result.success) {
-      // Redirect to home page
-      navigateTo('/');
+      // Redirect to home page upon successful login
+      navigateTo('/'); 
     } else {
       error.value = result.error;
     }
@@ -83,4 +90,4 @@ const handleLogin = async () => {
     isLoading.value = false;
   }
 };
-</script> 
+</script>
