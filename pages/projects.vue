@@ -68,13 +68,13 @@ const projects = [
     category: 'site web',
     date: '2023', // Assuming date based on AP1, adjust if needed
     image: '/quiconces.png',
-    description: 'Recréation d\'un site web en utilisant le CMS Framer, suite à un atelier professionnel.',
+    description: 'Création d\'un site web en utilisant le CMS Framer, suite à un atelier professionnel.',
     technologies: ['Framer', 'Figma', 'Web Design'],
     route: '/AP2'
   },
   {
     id: '3',
-    title: 'AP PHP (Cars)', // AP3
+    title: 'AP Personnages (Cars)', // AP3
     category: 'site web',
     date: '2024',
     image: '/cars.png',

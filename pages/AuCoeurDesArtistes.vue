@@ -10,7 +10,7 @@
             <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
             <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
           </svg>
-          Projet d'Équipe
+          Stage
         </span>
         <span class="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-1 h-4 w-4">
@@ -19,7 +19,7 @@
             <line x1="8" y1="2" x2="8" y2="6"></line>
             <line x1="3" y1="10" x2="21" y2="10"></line>
           </svg>
-          Juin 2023 - Août 2023
+          Janvier 2025 - Février 2025
         </span>
       </div>
     </div>
@@ -37,8 +37,7 @@
     <div class="space-y-4">
       <h2 class="text-2xl font-bold">Description du Projet</h2>
       <div class="text-muted-foreground">
-        <p>Durant mon stage chez Au Coeur Des Artistes, une galerie d'art locale et centre culturel, j'ai collaboré avec une équipe pour développer une plateforme numérique permettant de présenter les œuvres des artistes et de gérer les événements culturels. Le projet visait à accroître la présence en ligne de la galerie et à simplifier le processus d'organisation des expositions et des ateliers.</p>
-        <p class="mt-4">Les principaux objectifs étaient de créer un site web visuellement impressionnant qui mettait en valeur le travail des artistes, d'implémenter un système de gestion de contenu pour des mises à jour faciles, de développer un système de gestion d'événements pour les ateliers et les expositions, et d'intégrer une fonctionnalité de visite virtuelle de la galerie. Travaillant dans une équipe de trois développeurs, j'étais principalement responsable du développement frontend et de l'implémentation de la galerie virtuelle.</p>
+        <p>L’objectif principal était d’améliorer la visibilité du collectif sur Internet tout en proposant un site facile à gérer et à maintenir par les membres eux-mêmes. Le site présente les différentes facettes du collectif : la boutique, le salon de thé, l’atelier, ainsi qu’un blog et une section dédiée aux artisans, mettant en valeur chacun des créateurs.</p>
       </div>
     </div>
 
@@ -92,10 +91,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
-            <h3 class="font-semibold">Développer la présence en ligne</h3>
+            <h3 class="font-semibold">Collecter, suivre et orienter des demandes</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Participation à la gestion d'un service de présence en ligne en développant une plateforme numérique pour présenter les œuvres des artistes.
+            Collecter, suivre et orienter des demandes concernant les services de présence en ligne, traitement des demandes concernant le site web.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -103,10 +102,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
-            <h3 class="font-semibold">Travailler en mode projet</h3>
+            <h3 class="font-semibold">Développer la présence en ligne de l’organisation</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Participation à un projet informatique en équipe avec une répartition des tâches, des revues de code et une résolution collaborative des problèmes.
+            Développement d'un site web pour l'organisation et optimisation de son référencement SEO.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -114,10 +113,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
-            <h3 class="font-semibold">Développer une solution applicative</h3>
+            <h3 class="font-semibold">Répondre aux incidents et aux demandes d’assistance et d’évolution</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Conception et développement d'environnements 3D interactifs pour le web et mise en place d'une galerie virtuelle avec Nuxt 3.
+            Orientation des demandes de l'entreprise concernant le site internet.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -128,7 +127,7 @@
             <h3 class="font-semibold">Organiser son développement professionnel</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Développement de compétences techniques et collaboratives à travers l'apprentissage de nouveaux frameworks et méthodologies de travail.
+            Développement de compétences techniques et collaboratives à travers l'apprentissage de Nuxt 3. 
           </p>
         </div>
       </div>
@@ -148,9 +147,9 @@
           </svg>
           <h3 class="text-lg font-semibold">Documentation du Projet</h3>
           <p class="text-center text-sm text-muted-foreground">
-            Documentation détaillée de la plateforme numérique, incluant l'implémentation de la galerie virtuelle 3D et du système de gestion de contenu.
+            Document de maintenance hybride (documentation texte et vidéo pas à pas).
           </p>
-          <a href="#" class="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow hover:bg-primary/90">
+          <a href="https://www.canva.com/design/DAGfxZBZC1k/hVxXhZWs_TGYDCBhQXZDBg/view?utm_content=DAGfxZBZC1k&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h21839b789a" class="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow hover:bg-primary/90">
             Voir la Documentation PDF
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 h-4 w-4">
               <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
@@ -173,9 +172,6 @@
             <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
           </svg>
           <h3 class="text-lg font-semibold">Visiter le Site du Projet</h3>
-          <p class="text-center text-sm text-muted-foreground">
-            La plateforme numérique est maintenant utilisée par Au Coeur Des Artistes pour leurs expositions et événements.
-          </p>
           <a href="https://www.aucoeurdesartistes.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow hover:bg-primary/90">
             Visiter le Site
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 h-4 w-4">
@@ -212,7 +208,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 // No additional script needed for this page
 </script>
 

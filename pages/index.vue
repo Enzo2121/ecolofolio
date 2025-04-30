@@ -2,8 +2,8 @@
   <div class="container mx-auto px-4 space-y-12">
     <section class="flex flex-col items-center justify-center space-y-4 text-center py-12 md:py-20">
       <div class="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Bienvenue sur mon portfolio</div>
-      <h1 class="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
-        Bonjour, je suis <span class="text-primary">Enzo</span>
+      <h1 class="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl md:max-w-4xl">
+        Bonjour, je suis Enzo un étudiant en développement web et logiciel
       </h1>
       <p class="max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
         Un étudiant passionné en informatique spécialisé dans le développement web et mobile.
