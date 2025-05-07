@@ -37,7 +37,7 @@
     <div class="space-y-4">
       <h2 class="text-2xl font-bold">Description du Projet</h2>
       <div class="text-muted-foreground">
-        <p>L’objectif principal était d’améliorer la visibilité du collectif sur Internet tout en proposant un site facile à gérer et à maintenir par les membres eux-mêmes. Le site présente les différentes facettes du collectif : la boutique, le salon de thé, l’atelier, ainsi qu’un blog et une section dédiée aux artisans, mettant en valeur chacun des créateurs.</p>
+        <p>L'objectif principal était d'améliorer la visibilité du collectif sur Internet tout en proposant un site facile à gérer et à maintenir par les membres eux-mêmes. Le site présente les différentes facettes du collectif : la boutique, le salon de thé, l'atelier, ainsi qu'un blog et une section dédiée aux artisans, mettant en valeur chacun des créateurs.</p>
       </div>
     </div>
 
@@ -102,7 +102,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
-            <h3 class="font-semibold">Développer la présence en ligne de l’organisation</h3>
+            <h3 class="font-semibold">Développer la présence en ligne de l'organisation</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
             Développement d'un site web pour l'organisation et optimisation de son référencement SEO.
@@ -113,7 +113,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
-            <h3 class="font-semibold">Répondre aux incidents et aux demandes d’assistance et d’évolution</h3>
+            <h3 class="font-semibold">Répondre aux incidents et aux demandes d'assistance et d'évolution</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
             Orientation des demandes de l'entreprise concernant le site internet.
@@ -130,6 +130,14 @@
             Développement de compétences techniques et collaboratives à travers l'apprentissage de Nuxt 3. 
           </p>
         </div>
+      </div>
+    </div>
+
+    <!-- Figma Mockups -->
+    <div class="space-y-4">
+      <h2 class="text-2xl font-bold">Maquettes Figma</h2>
+      <div class="rounded-lg border overflow-hidden shadow-sm">
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://embed.figma.com/design/VR4PSg2gtPZbFbvlirtaet/coeur-des-artistes?node-id=0-1&embed-host=share" allowfullscreen></iframe>
       </div>
     </div>
 

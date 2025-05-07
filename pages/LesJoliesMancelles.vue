@@ -119,31 +119,49 @@
       </div>
     </div>
 
+    <!-- Figma Mockups -->
+    <div class="space-y-4">
+      <h2 class="text-2xl font-bold">Maquettes Figma</h2>
+      <div class="rounded-lg border overflow-hidden shadow-sm">
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://embed.figma.com/design/AxygRegsf1KUgjEBPlVzqu/Les-jolies-mancelles?node-id=0-1&embed-host=share" allowfullscreen></iframe>
+      </div>
+    </div>
+
     <!-- Technical Documentation -->
     <div class="space-y-4">
       <h2 class="text-2xl font-bold">Documentation Technique</h2>
-      <div class="rounded-lg border p-6">
-        <div class="flex flex-col items-center space-y-4">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-12 w-12 text-primary">
-            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-            <polyline points="14 2 14 8 20 8"></polyline>
-            <line x1="16" y1="13" x2="8" y2="13"></line>
-            <line x1="16" y1="17" x2="8" y2="17"></line>
-            <polyline points="10 9 9 9 8 9"></polyline>
-          </svg>
-          <h3 class="text-lg font-semibold">Documentation du Projet</h3>
-          <p class="text-center text-sm text-muted-foreground">
-            Documentation complète de la plateforme e-commerce, incluant l'architecture système, le schéma de base de données et les points d'API.
-          </p>
-          <a href="#" class="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow hover:bg-primary/90">
-            Voir la Documentation PDF
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 h-4 w-4">
-              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-              <polyline points="15 3 21 3 21 9"></polyline>
-              <line x1="10" y1="14" x2="21" y2="3"></line>
-            </svg>
-          </a>
-        </div>
+      <div class="text-muted-foreground mb-4">
+        <p>Consultez le document de maintenance détaillé pour ce projet.</p>
+      </div>
+      
+      <div class="flex flex-wrap items-center justify-center gap-4 mb-6">
+        <button @click="zoomIn" class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 mr-2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+          Zoom +
+        </button>
+        <button @click="zoomOut" class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 mr-2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+          Zoom -
+        </button>
+        <button @click="resetZoom" class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 mr-2"><path d="M3 12a9 9 0 1 0 18 0 9 9 0 0 0-18 0"></path><path d="M14 8H8v6h6"></path></svg>
+          Réinitialiser
+        </button>
+        <a :href="pdfUrl" download class="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-4 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 mr-2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          Télécharger le Document
+        </a>
+      </div>
+      
+      <div class="w-full max-w-4xl border rounded-lg shadow-sm overflow-y-auto h-[75vh]" :style="{ transform: `scale(${scale})`, transformOrigin: 'top center' }">
+        <ClientOnly>
+          <div v-if="isClient">
+            <VuePdfEmbed :source="pdfUrl" :width="width" />
+          </div>
+          <div v-else class="flex items-center justify-center h-[600px] bg-muted">
+            <p>Chargement de la visionneuse PDF...</p>
+          </div>
+        </ClientOnly>
       </div>
     </div>
 
@@ -198,7 +216,36 @@
 </template>
 
 <script setup>
-// No additional script needed for this page
+import { ref, onMounted } from 'vue';
+import VuePdfEmbed from 'vue-pdf-embed';
+
+const pdfUrl = '/Document de maintenance.pdf';
+const scale = ref(1);
+const width = ref(800);
+const isClient = ref(false);
+
+onMounted(() => {
+  isClient.value = true;
+  updateWidth();
+  window.addEventListener('resize', updateWidth);
+});
+
+function updateWidth() {
+  const containerWidth = Math.min(window.innerWidth - 40, 800);
+  width.value = containerWidth;
+}
+
+function zoomIn() {
+  scale.value = Math.min(scale.value + 0.1, 2);
+}
+
+function zoomOut() {
+  scale.value = Math.max(scale.value - 0.1, 0.5);
+}
+
+function resetZoom() {
+  scale.value = 1;
+}
 </script>
 
 <style scoped>

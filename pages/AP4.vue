@@ -148,11 +148,11 @@
       </div>
     </div>
 
-    <!-- Technical Documentation -->
+    <!-- Backlog & User Stories -->
     <div class="space-y-4">
-      <h2 class="text-2xl font-bold">Documentation Technique</h2>
+      <h2 class="text-2xl font-bold">Backlog & User Stories</h2>
       <div class="text-muted-foreground mb-4">
-        <p>Consultez la documentation technique détaillée de ce projet, comprenant l'architecture du système, les modèles de données et les guides d'implémentation.</p>
+        <p>Consultez le backlog et les user stories détaillés de ce projet, illustrant les fonctionnalités planifiées et les récits utilisateurs.</p>
       </div>
       
       <div class="flex flex-wrap items-center justify-center gap-4 mb-6">
@@ -170,14 +170,14 @@
         </button>
         <a :href="pdfUrl" download class="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-4 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 mr-2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-          Télécharger la Documentation
+          Télécharger le Backlog
         </a>
       </div>
       
-      <div class="w-full max-w-4xl border rounded-lg shadow-sm overflow-hidden" :style="{ transform: `scale(${scale})`, transformOrigin: 'top center' }">
+      <div class="w-full max-w-4xl border rounded-lg shadow-sm overflow-y-auto h-[75vh]" :style="{ transform: `scale(${scale})`, transformOrigin: 'top center' }">
         <ClientOnly>
           <div v-if="isClient">
-            <VuePdfEmbed :source="pdfUrl" :page="1" :width="width" />
+            <VuePdfEmbed :source="pdfUrl" :width="width" />
           </div>
           <div v-else class="flex items-center justify-center h-[600px] bg-muted">
             <p>Chargement de la visionneuse PDF...</p>
@@ -203,7 +203,7 @@
           <a href="https://example.com/amap-site" target="_blank" rel="noopener noreferrer" class="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow hover:bg-primary/90">
             Voir la Démo
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 h-4 w-4">
-              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
               <polyline points="15 3 21 3 21 9"></polyline>
               <line x1="10" y1="14" x2="21" y2="3"></line>
             </svg>
@@ -240,7 +240,7 @@
 import { ref, onMounted } from 'vue';
 import VuePdfEmbed from 'vue-pdf-embed';
 
-const pdfUrl = '/docs/AP4-documentation.pdf';
+const pdfUrl = '/AMAP_AP_Backlogs.pdf';
 const scale = ref(1);
 const width = ref(800);
 const isClient = ref(false);

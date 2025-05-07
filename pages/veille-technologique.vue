@@ -154,6 +154,55 @@
       </div>
     </div>
     
+    <!-- Featured Articles Section -->
+    <h2 class="text-3xl font-bold mb-6 text-center">Articles à la Une</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12 max-w-6xl mx-auto">
+      <a 
+        v-for="(article, index) in featuredArticles" 
+        :key="index" 
+        :href="article.link" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        class="bg-card rounded-lg overflow-hidden border border-border hover:border-primary transition-colors flex flex-col h-full"
+      >
+        <div class="h-48 bg-muted relative">
+          <img 
+            v-if="article.imageUrl" 
+            :src="article.imageUrl" 
+            :alt="article.title" 
+            class="w-full h-full object-cover"
+          />
+          <div v-else class="w-full h-full flex items-center justify-center bg-muted">
+            <div class="text-4xl text-muted-foreground">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path></svg>
+            </div>
+          </div>
+          <div class="absolute top-2 right-2 bg-card px-2 py-1 rounded text-xs font-medium">
+            {{ article.topic === 'llm' ? 'LLM' : (article.topic === 'nuxt' ? 'Nuxt.js' : 'Veille') }}
+          </div>
+        </div>
+        
+        <div class="p-4 flex-1 flex flex-col">
+          <div class="flex items-center gap-2 mb-2">
+            <span v-if="article.pubDate" class="text-xs text-muted-foreground">{{ formatDate(article.pubDate) }}</span>
+            <span v-if="article.source" class="text-xs px-2 py-0.5 bg-muted rounded-full">{{ article.source }}</span>
+          </div>
+          
+          <h3 class="text-lg font-semibold mb-2 line-clamp-2">{{ article.title }}</h3>
+          
+          <p v-if="article.contentSnippet" class="text-sm text-muted-foreground mb-4 line-clamp-3">
+            {{ article.contentSnippet }}
+          </p>
+          
+          <div class="mt-auto pt-2 flex items-center text-sm text-primary font-medium">
+            Lire l'article
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-1"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- End of Featured Articles Section -->
+
     <!-- Articles Section -->
     <h2 class="text-3xl font-bold mb-6 text-center">Articles Récents</h2>
     
@@ -289,6 +338,40 @@ const { articles, loading, error, fetchArticles, formatDate } = useArticles();
 
 // Set up reactive filter
 const activeFilter = ref('all');
+
+const featuredArticleLink = 'http://medium.com/@yujiisobe/measuring-developer-productivity-in-the-llm-era-b002cc0b5ab4';
+const placeholderTitle = 'À Découvrir: Mesurer la Productivité des Développeurs à l\'Ère des LLMs';
+const placeholderSnippet = 'Un article clé pour comprendre l\'évolution de la mesure de productivité avec l\'avènement des Grands Modèles de Langage.';
+
+const featuredArticles = ref([
+  {
+    title: placeholderTitle,
+    link: featuredArticleLink,
+    imageUrl: '', // Vous pouvez ajouter une URL d'image ici
+    topic: 'llm', // Ou 'nuxt', ou autre selon l'article
+    pubDate: '2024-07-01', // Date de publication indicative
+    source: 'Medium',
+    contentSnippet: placeholderSnippet
+  },
+  {
+    title: placeholderTitle,
+    link: featuredArticleLink,
+    imageUrl: '',
+    topic: 'llm',
+    pubDate: '2024-07-01',
+    source: 'Medium',
+    contentSnippet: placeholderSnippet
+  },
+  {
+    title: placeholderTitle,
+    link: featuredArticleLink,
+    imageUrl: '',
+    topic: 'llm',
+    pubDate: '2024-07-01',
+    source: 'Medium',
+    contentSnippet: placeholderSnippet
+  }
+]);
 
 // Computed property for filtered articles
 const filteredArticles = computed(() => {
