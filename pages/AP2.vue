@@ -60,10 +60,32 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
-            <h3 class="font-semibold">Développer la présence en ligne</h3>
+            <h3 class="font-semibold">Gérer le patrimoine informatique</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Participation à la gestion d'un projet de présence en ligne à travers la création de maquettes et l'utilisation d'outils CMS.
+            Recenser et identifier les ressources numériques
+          </p>
+        </div>
+        <div class="rounded-lg border p-4">
+          <div class="flex items-center space-x-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+            <h3 class="font-semibold">Répondre aux incidents et aux demandes d’assistance et d’évolution</h3>
+          </div>
+          <p class="mt-2 text-sm text-muted-foreground">
+            Traiter des demandes concernant les applications
+          </p>
+        </div>
+        <div class="rounded-lg border p-4">
+          <div class="flex items-center space-x-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+            <h3 class="font-semibold">Développer la présence en ligne de l’organisation</h3>
+          </div>
+          <p class="mt-2 text-sm text-muted-foreground">
+            Participer à l’évolution d’un site Web exploitant les données de l’organisation.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -74,29 +96,7 @@
             <h3 class="font-semibold">Travailler en mode projet</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Participation à un projet informatique en équipe en utilisant la méthode Agile pour une gestion efficace du temps et des ressources.
-          </p>
-        </div>
-        <div class="rounded-lg border p-4">
-          <div class="flex items-center space-x-2">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
-              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-            </svg>
-            <h3 class="font-semibold">Mettre à disposition un service</h3>
-          </div>
-          <p class="mt-2 text-sm text-muted-foreground">
-            Participation à la qualification des besoins et à la mise en œuvre d'une solution technique adaptée aux exigences du projet.
-          </p>
-        </div>
-        <div class="rounded-lg border p-4">
-          <div class="flex items-center space-x-2">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
-              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-            </svg>
-            <h3 class="font-semibold">Organiser son développement professionnel</h3>
-          </div>
-          <p class="mt-2 text-sm text-muted-foreground">
-            Développement de compétences techniques et collaboratives à travers l'apprentissage de nouveaux outils et méthodologies.
+            Analyser les objectifs et les modalités d’organisation d’un projet
           </p>
         </div>
       </div>

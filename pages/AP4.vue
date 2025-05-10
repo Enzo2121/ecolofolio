@@ -150,7 +150,18 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
-            <h3 class="font-semibold">Mettre à disposition un service</h3>
+            <h3 class="font-semibold">Mettre à disposition un service informatique</h3>
+          </div>
+          <p class="mt-2 text-sm text-muted-foreground">
+            Mise en œuvre d'une solution technique répondant aux besoins des utilisateurs avec une interface intuitive et responsive.
+          </p>
+        </div>
+        <div class="rounded-lg border p-4">
+          <div class="flex items-center space-x-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+            <h3 class="font-semibold">Mettre à disposition des utilisateurs un service informatique</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
             Mise en œuvre d'une solution technique répondant aux besoins des utilisateurs avec une interface intuitive et responsive.

@@ -84,6 +84,17 @@
     <div class="space-y-4">
       <h2 class="text-2xl font-bold">Compétences Acquises</h2>
       <div class="grid gap-4 sm:grid-cols-2">
+        <div class="rounded-lg border border-black/50 p-4">
+          <div class="flex items-center space-x-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+            <h3 class="font-semibold">Mettre à disposition des utilisateurs un service informatique</h3>
+          </div>
+          <ul class="mt-2 list-disc pl-5 text-sm text-muted-foreground space-y-1">
+            <li>Accompagner les utilisateurs dans la mise en place d'un service</li>
+          </ul>
+        </div>
         <div class="rounded-lg border p-4">
           <div class="flex items-center space-x-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
@@ -94,17 +105,6 @@
           <ul class="mt-2 list-disc pl-5 text-sm text-muted-foreground space-y-1">
             <li>Collecter, suivre et orienter des demandes</li>
             <li>Traiter des demandes concernant les applications</li>
-          </ul>
-        </div>
-        <div class="rounded-lg border p-4">
-          <div class="flex items-center space-x-2">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
-              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-            </svg>
-            <h3 class="font-semibold">Mettre à disposition des utilisateurs un service informatique</h3>
-          </div>
-          <ul class="mt-2 list-disc pl-5 text-sm text-muted-foreground space-y-1">
-            <li>Accompagner les utilisateurs dans la mise en place d'un service</li>
           </ul>
         </div>
       </div>
