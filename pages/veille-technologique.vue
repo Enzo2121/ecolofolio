@@ -1,6 +1,9 @@
 <template>
   <div class="container mx-auto px-4 space-y-12">
     <h1 class="text-4xl font-bold mb-8 text-center">Veille Technologique</h1>
+    <p class="text-center text-sm text-muted-foreground mb-10">
+      Les flux RSS de cette page sont agrégés avec <a href="https://github.com/rbren/rss-parser#readme" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">rss-parser</a>.
+    </p>
     
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12 max-w-6xl mx-auto">
       <div class="bg-card rounded-lg shadow-sm p-6 border border-border">
@@ -27,16 +30,6 @@
               <li>Génération de contenu et rédaction assistée</li>
               <li>Analyse de données et extraction d'informations</li>
               <li>Traduction et localisation automatisées</li>
-            </ul>
-          </div>
-          
-          <div class="border-l-4 border-primary pl-4 py-2">
-            <h3 class="font-medium">Défis et Considérations</h3>
-            <ul class="list-disc list-inside mt-2 text-sm text-muted-foreground">
-              <li>Biais et équité dans les modèles</li>
-              <li>Consommation énergétique et impact environnemental</li>
-              <li>Confidentialité des données et sécurité</li>
-              <li>Réglementations (IA Act en Europe, etc.)</li>
             </ul>
           </div>
         </div>
@@ -68,88 +61,6 @@
               <li>Nuxt DevTools: Outils de développement intégrés</li>
             </ul>
           </div>
-          
-          <div class="border-l-4 border-primary pl-4 py-2">
-            <h3 class="font-medium">Cas d'Utilisation</h3>
-            <ul class="list-disc list-inside mt-2 text-sm text-muted-foreground">
-              <li>Sites vitrines et portfolios</li>
-              <li>Applications e-commerce</li>
-              <li>Dashboards et interfaces d'administration</li>
-              <li>Applications progressives (PWA)</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <h2 class="text-3xl font-bold mb-6 text-center">Intégration des LLMs dans Nuxt.js</h2>
-    
-    <div class="bg-card rounded-lg shadow-sm p-6 border border-border mb-8 max-w-6xl mx-auto">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div>
-          <h3 class="text-xl font-semibold mb-4">Approches d'Intégration</h3>
-          <ul class="space-y-3">
-            <li class="flex items-start">
-              <div class="mr-2 mt-1 bg-primary/20 text-primary p-1 rounded-full">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-              </div>
-              <div>
-                <span class="font-medium">API Serverless</span>
-                <p class="text-sm text-muted-foreground">Utilisation des fonctions Nitro pour créer des endpoints API qui communiquent avec les services LLM.</p>
-              </div>
-            </li>
-            <li class="flex items-start">
-              <div class="mr-2 mt-1 bg-primary/20 text-primary p-1 rounded-full">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-              </div>
-              <div>
-                <span class="font-medium">Composables dédiés</span>
-                <p class="text-sm text-muted-foreground">Création de composables réutilisables pour interagir avec les APIs d'IA comme OpenAI, Anthropic, etc.</p>
-              </div>
-            </li>
-            <li class="flex items-start">
-              <div class="mr-2 mt-1 bg-primary/20 text-primary p-1 rounded-full">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-              </div>
-              <div>
-                <span class="font-medium">Génération de contenu</span>
-                <p class="text-sm text-muted-foreground">Utilisation des LLMs pour générer du contenu dynamique pour les sites Nuxt.</p>
-              </div>
-            </li>
-          </ul>
-        </div>
-        
-        <div>
-          <h3 class="text-xl font-semibold mb-4">Bibliothèques Utiles</h3>
-          <ul class="space-y-3">
-            <li class="flex items-start">
-              <div class="mr-2 mt-1 bg-primary/20 text-primary p-1 rounded-full">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-              </div>
-              <div>
-                <span class="font-medium">Langchain.js</span>
-                <p class="text-sm text-muted-foreground">Framework pour développer des applications basées sur les LLMs avec des chaînes de traitement.</p>
-              </div>
-            </li>
-            <li class="flex items-start">
-              <div class="mr-2 mt-1 bg-primary/20 text-primary p-1 rounded-full">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-              </div>
-              <div>
-                <span class="font-medium">OpenAI SDK</span>
-                <p class="text-sm text-muted-foreground">Bibliothèque officielle pour interagir avec les APIs d'OpenAI.</p>
-              </div>
-            </li>
-            <li class="flex items-start">
-              <div class="mr-2 mt-1 bg-primary/20 text-primary p-1 rounded-full">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-              </div>
-              <div>
-                <span class="font-medium">Nuxt AI</span>
-                <p class="text-sm text-muted-foreground">Module Nuxt pour intégrer facilement des fonctionnalités d'IA dans vos applications.</p>
-              </div>
-            </li>
-          </ul>
         </div>
       </div>
     </div>
@@ -295,28 +206,6 @@
           </div>
         </div>
       </a>
-    </div>
-    
-    <div class="bg-muted p-6 rounded-lg max-w-6xl mx-auto">
-      <h3 class="text-xl font-semibold mb-4">Ressources pour Approfondir</h3>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <a href="https://nuxt.com/docs" target="_blank" class="flex items-center p-3 bg-card rounded-md border border-border hover:border-primary transition-colors">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path></svg>
-          Documentation officielle Nuxt 3
-        </a>
-        <a href="https://platform.openai.com/docs" target="_blank" class="flex items-center p-3 bg-card rounded-md border border-border hover:border-primary transition-colors">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path></svg>
-          Documentation OpenAI
-        </a>
-        <a href="https://js.langchain.com/docs/" target="_blank" class="flex items-center p-3 bg-card rounded-md border border-border hover:border-primary transition-colors">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path></svg>
-          Documentation LangChain.js
-        </a>
-        <a href="https://huggingface.co/docs" target="_blank" class="flex items-center p-3 bg-card rounded-md border border-border hover:border-primary transition-colors">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path></svg>
-          Documentation Hugging Face
-        </a>
-      </div>
     </div>
   </div>
 </template>

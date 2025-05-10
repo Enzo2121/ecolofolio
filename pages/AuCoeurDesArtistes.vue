@@ -157,8 +157,8 @@
           <p class="text-center text-sm text-muted-foreground">
             Document de maintenance hybride (documentation texte et vidéo pas à pas).
           </p>
-          <a href="https://www.canva.com/design/DAGfxZBZC1k/hVxXhZWs_TGYDCBhQXZDBg/view?utm_content=DAGfxZBZC1k&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h21839b789a" class="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow hover:bg-primary/90">
-            Voir la Documentation PDF
+          <a target="_blank" href="https://www.canva.com/design/DAGfxZBZC1k/hVxXhZWs_TGYDCBhQXZDBg/view?utm_content=DAGfxZBZC1k&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h21839b789a" class="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow hover:bg-primary/90">
+            Voir la Documentation
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 h-4 w-4">
               <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
               <polyline points="15 3 21 3 21 9"></polyline>

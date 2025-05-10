@@ -89,55 +89,23 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
-            <h3 class="font-semibold">Gérer le patrimoine informatique</h3>
+            <h3 class="font-semibold">Répondre aux incidents et aux demandes d'assistance et d'évolution</h3>
           </div>
-          <p class="mt-2 text-sm text-muted-foreground">
-            Exploitation des référentiels, normes et standards WordPress pour configurer et maintenir un site web fonctionnel.
-          </p>
+          <ul class="mt-2 list-disc pl-5 text-sm text-muted-foreground space-y-1">
+            <li>Collecter, suivre et orienter des demandes</li>
+            <li>Traiter des demandes concernant les applications</li>
+          </ul>
         </div>
         <div class="rounded-lg border p-4">
           <div class="flex items-center space-x-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
-            <h3 class="font-semibold">Développer la présence en ligne</h3>
+            <h3 class="font-semibold">Mettre à disposition des utilisateurs un service informatique</h3>
           </div>
-          <p class="mt-2 text-sm text-muted-foreground">
-            Participation à l'évolution d'un site Web exploitant les données de l'organisation et valorisation de son image sur les médias numériques.
-          </p>
-        </div>
-        <div class="rounded-lg border p-4">
-          <div class="flex items-center space-x-2">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
-              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-            </svg>
-            <h3 class="font-semibold">Travailler en mode projet</h3>
-          </div>
-          <p class="mt-2 text-sm text-muted-foreground">
-            Analyse des objectifs et modalités d'organisation du projet, planification des activités et évaluation des indicateurs de suivi.
-          </p>
-        </div>
-        <div class="rounded-lg border p-4">
-          <div class="flex items-center space-x-2">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
-              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-            </svg>
-            <h3 class="font-semibold">Mettre à disposition un service</h3>
-          </div>
-          <p class="mt-2 text-sm text-muted-foreground">
-            Réalisation des tests d'intégration et d'acceptation du site WordPress, déploiement du service et accompagnement des utilisateurs.
-          </p>
-        </div>
-        <div class="rounded-lg border p-4">
-          <div class="flex items-center space-x-2">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
-              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-            </svg>
-            <h3 class="font-semibold">Organiser son développement professionnel</h3>
-          </div>
-          <p class="mt-2 text-sm text-muted-foreground">
-            Mise en place d'un environnement d'apprentissage personnel et mise en œuvre d'outils de veille sur les technologies WordPress et PHP.
-          </p>
+          <ul class="mt-2 list-disc pl-5 text-sm text-muted-foreground space-y-1">
+            <li>Accompagner les utilisateurs dans la mise en place d'un service</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -156,8 +124,6 @@
         <ul class="list-disc pl-5 mt-2 space-y-1">
           <li>WordPress 5.x comme système de gestion de contenu (CMS)</li>
           <li>phpMyAdmin pour la gestion de la base de données MySQL</li>
-          <li>HTML/CSS pour les ajustements mineurs du thème</li>
-          <li>Plugins WordPress standards pour étendre les fonctionnalités de base</li>
           <li>Serveur local WAMP/XAMPP pour le développement</li>
         </ul>
       </div>

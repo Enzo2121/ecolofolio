@@ -3,7 +3,7 @@
     <div class="container mx-auto px-4 flex h-16 items-center justify-between">
       <div class="flex items-center">
         <NuxtLink to="/" class="flex items-center space-x-2">
-          <span class="font-bold text-xl">EcoloFolio</span>
+          <span class="font-bold text-xl">EnzoPortfolio</span>
         </NuxtLink>
       </div>
       <div class="flex items-center space-x-6">

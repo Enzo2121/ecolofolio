@@ -6,7 +6,7 @@
       <h1 class="text-4xl font-bold tracking-tighter">Site Web AMAP</h1>
       <div class="flex flex-wrap items-center gap-2">
         <span class="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">PHP</span>
-        <span class="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">Bootstrap</span>
+        <span class="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">Tailwind</span>
         <span class="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">PhpMyAdmin</span>
       </div>
     </div>
@@ -24,8 +24,36 @@
     <div class="space-y-4">
       <h2 class="text-2xl font-bold">Aperçu du Projet</h2>
       <div class="text-muted-foreground">
-        <p>Ce projet, réalisé dans le cadre de mon BTS SIO, consiste en un site web pour une AMAP, permettant aux utilisateurs de s'inscrire, de choisir leur panier, et de gérer leurs adhésions. Développé avec PHP, Bootstrap et PhpMyAdmin, il facilite la gestion des paniers et des adhérents.</p>
+        <p>Ce projet, réalisé dans le cadre de mon BTS SIO, consiste en un site web pour une AMAP, permettant aux utilisateurs de s'inscrire, de choisir leur panier, et de gérer leurs adhésions. Développé avec PHP, Tailwind et PhpMyAdmin, il facilite la gestion des paniers et des adhérents.</p>
         <p class="mt-4">L'application a été conçue en suivant la méthode Agile, permettant une adaptation rapide aux besoins des utilisateurs et une livraison continue de fonctionnalités.</p>
+      </div>
+    </div>
+
+    <!-- Démarche suivie / Étapes du projet -->
+    <div class="space-y-4">
+      <h2 class="text-2xl font-bold">Démarche suivie / Étapes du projet</h2>
+      <div class="text-muted-foreground">
+        <ul class="list-disc pl-5 space-y-2">
+          <li>
+            <strong>Analyse des besoins:</strong> Définition des exigences du projet avec les parties prenantes.
+          </li>
+          <li>
+            <strong>Conception:</strong> Création des modèles de données (MCD, MLD) et des maquettes UI/UX.
+          </li>
+          <li>
+            <strong>Développement (backend/frontend):</strong>
+            <ul class="list-circle pl-5 space-y-1 mt-1">
+              <li>Backend: Logique métier en PHP et gestion base de données MySQL.</li>
+              <li>Frontend: Interface utilisateur responsive avec Tailwind.</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Tests utilisateurs:</strong> Validation fonctionnelle et ergonomique avec les utilisateurs cibles.
+          </li>
+          <li>
+            <strong>Livraison:</strong> Déploiement, formation et documentation.
+          </li>
+        </ul>
       </div>
     </div>
 
@@ -74,7 +102,7 @@
             <h3 class="font-semibold">Interface Responsive</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Design adaptatif avec Bootstrap pour une expérience utilisateur optimale sur tous les appareils.
+            Design adaptatif avec Tailwind pour une expérience utilisateur optimale sur tous les appareils.
           </p>
         </div>
       </div>
@@ -84,6 +112,17 @@
     <div class="space-y-4">
       <h2 class="text-2xl font-bold">Compétences Acquises</h2>
       <div class="grid gap-4 sm:grid-cols-2">
+        <div class="rounded-lg border-2 border-primary bg-primary/[.03] p-4">
+          <div class="flex items-center space-x-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+            <h3 class="font-semibold">Travailler en mode projet</h3>
+          </div>
+          <p class="mt-2 text-sm text-muted-foreground">
+            Participation à un projet informatique en équipe en utilisant la méthode Agile pour une gestion efficace des tâches et des délais.
+          </p>
+        </div>
         <div class="rounded-lg border p-4">
           <div class="flex items-center space-x-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
@@ -117,17 +156,6 @@
             Mise en œuvre d'une solution technique répondant aux besoins des utilisateurs avec une interface intuitive et responsive.
           </p>
         </div>
-        <div class="rounded-lg border p-4">
-          <div class="flex items-center space-x-2">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
-              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-            </svg>
-            <h3 class="font-semibold">Travailler en mode projet</h3>
-          </div>
-          <p class="mt-2 text-sm text-muted-foreground">
-            Participation à un projet informatique en équipe en utilisant la méthode Agile pour une gestion efficace des tâches et des délais.
-          </p>
-        </div>
       </div>
     </div>
 
@@ -138,7 +166,7 @@
         <p>Le site web AMAP a été développé en utilisant les technologies et méthodologies suivantes :</p>
         <ul class="list-disc pl-5 mt-2 space-y-1">
           <li>PHP pour la logique côté serveur</li>
-          <li>Bootstrap pour le design responsive</li>
+          <li>Tailwind pour le design responsive</li>
           <li>MySQL pour la base de données</li>
           <li>PhpMyAdmin pour la gestion de la base de données</li>
           <li>Méthode Agile pour la gestion de projet</li>
@@ -186,28 +214,27 @@
       </div>
     </div>
 
-    <!-- Project Link -->
+    <!-- Image Gallery -->
     <div class="space-y-4">
-      <h2 class="text-2xl font-bold">Lien du Projet</h2>
-      <div class="rounded-lg border p-6">
-        <div class="flex flex-col items-center space-y-4">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-12 w-12 text-primary">
-            <circle cx="12" cy="12" r="10"></circle>
-            <line x1="2" y1="12" x2="22" y2="12"></line>
-            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-          </svg>
-          <h3 class="text-lg font-semibold">Accéder au Site AMAP</h3>
-          <p class="text-center text-sm text-muted-foreground">
-            Explorez la démo en direct du site web de l'AMAP.
-          </p>
-          <a href="https://example.com/amap-site" target="_blank" rel="noopener noreferrer" class="inline-flex items-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow hover:bg-primary/90">
-            Voir la Démo
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2 h-4 w-4">
-              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-              <polyline points="15 3 21 3 21 9"></polyline>
-              <line x1="10" y1="14" x2="21" y2="3"></line>
-            </svg>
-          </a>
+      <h2 class="text-2xl font-bold">Galerie d'Images</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 gap-4">
+        <div class="aspect-video overflow-hidden rounded-lg border bg-muted">
+          <img src="/champAdmin.png" alt="Interface d'administration" class="h-full w-full" />
+          <div class="p-4">
+            <p class="text-sm text-muted-foreground">Interface d'administration permettant la gestion des produits, des adhérents et des paniers</p>
+          </div>
+        </div>
+        <div class="aspect-video overflow-hidden rounded-lg border bg-muted">
+          <img src="/champPanier.png" alt="Gestion des paniers" class="h-full w-full" />
+          <div class="p-4">
+            <p class="text-sm text-muted-foreground">Interface de gestion des paniers permettant aux adhérents de composer leurs paniers hebdomadaires</p>
+          </div>
+        </div>
+        <div class="aspect-video overflow-hidden rounded-lg border bg-muted">
+          <img src="/adherent.png" alt="Espace adhérent" class="h-full w-full" />
+          <div class="p-4">
+            <p class="text-sm text-muted-foreground">Espace adhérent personnalisé permettant de gérer son profil et consulter l'historique des commandes</p>
+          </div>
         </div>
       </div>
     </div>

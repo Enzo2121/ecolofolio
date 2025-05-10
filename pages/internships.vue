@@ -77,7 +77,7 @@ const projects = [
   {
     id: '2',
     title: 'Au Coeur Des Artistes',
-    teamProject: true,
+    teamProject: false,
     date: 'Juin 2023 - Août 2023',
     image: '/coeur.PNG',
     description: 'Durant mon stage chez Au Coeur Des Artistes, une galerie d\'art locale et centre culturel, j\'ai collaboré avec une équipe pour développer une plateforme numérique permettant de présenter les œuvres des artistes et de gérer les événements culturels.',
