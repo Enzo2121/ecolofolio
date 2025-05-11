@@ -94,7 +94,7 @@
             <h3 class="font-semibold">Gérer le patrimoine informatique</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Description de la compétence.
+            Mise en place et configuration de l'environnement de développement avec Nuxt 3, Nuxt Studio et Nuxt Content pour assurer une gestion efficace du site web.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -105,7 +105,7 @@
             <h3 class="font-semibold">Répondre aux incidents et aux demandes d'assistance et d'évolution</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Description de la compétence.
+            Création d'une documentation hybride détaillée combinant texte et vidéos pour permettre aux membres du collectif de gérer et maintenir facilement le site.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -116,7 +116,7 @@
             <h3 class="font-semibold">Développer la présence en ligne de l'organisation</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Description de la compétence.
+            Conception et développement d'un site web complet présentant la boutique, le salon de thé, l'atelier et les artisans, améliorant significativement la visibilité du collectif sur Internet.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -127,7 +127,7 @@
             <h3 class="font-semibold">Mettre à disposition des utilisateurs un service informatique</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Description de la compétence.
+            Implémentation d'un système de gestion de contenu intuitif permettant aux membres du collectif de mettre à jour facilement le site et le blog de manière autonome.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -138,7 +138,7 @@
             <h3 class="font-semibold">Organiser son développement professionnel</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Description de la compétence.
+            Apprentissage et maîtrise de nouvelles technologies comme Nuxt 3, Nuxt Studio et Tailwind CSS pour créer une solution web moderne et performante.
           </p>
         </div>
       </div>

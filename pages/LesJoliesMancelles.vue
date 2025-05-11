@@ -39,8 +39,7 @@
     <div class="space-y-4">
       <h2 class="text-2xl font-bold">Description du Projet</h2>
       <div class="text-muted-foreground">
-        <p>Durant mon stage chez Les Jolies Mancelles, une entreprise locale de savons et cosmétiques artisanaux, j'ai été chargé de développer une plateforme e-commerce pour les aider à étendre leur activité en ligne. Le projet impliquait la création d'un site web convivial qui présentait leurs produits, mettait en œuvre un système de panier d'achat sécurisé et intégrait le traitement des paiements.</p>
-        <p class="mt-4">Les principaux objectifs étaient de créer un site web visuellement attrayant qui reflétait l'esthétique naturelle et artisanale de la marque, d'implémenter un catalogue de produits intuitif avec des options de filtrage, et d'assurer un processus de paiement fluide. J'ai également mis en place des fonctionnalités de gestion des stocks pour aider l'entreprise à suivre les niveaux de stock et à recevoir des notifications lorsque les produits devaient être réapprovisionnés.</p>
+        <p>Pendant mon stage chez LesJoliesMancelles, j’ai conçu et développé un site vitrine pour présenter le salon, afficher les tarifs, faciliter les contacts et intégrer un blog. J’ai utilisé Figma pour le design et Framer comme CMS.</p>
       </div>
     </div>
 
@@ -80,7 +79,7 @@
             <h3 class="font-semibold">Gérer le patrimoine informatique</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Description de la compétence.
+            J'ai participé à la mise en place et à la gestion du CMS Framer pour le site vitrine, en assurant son bon fonctionnement et sa maintenance.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -91,7 +90,7 @@
             <h3 class="font-semibold">Répondre aux incidents et aux demandes d'assistance et d'évolution</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Description de la compétence.
+            J'ai collaboré étroitement avec le client pour comprendre ses besoins et apporter des modifications au site selon ses retours, notamment pour l'intégration du blog et l'affichage des tarifs.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -102,7 +101,7 @@
             <h3 class="font-semibold">Développer la présence en ligne de l'organisation</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Description de la compétence.
+            J'ai conçu et développé un site vitrine complet qui a permis d'améliorer la visibilité en ligne du salon, incluant la présentation des services, un système de contact et un blog pour le contenu marketing.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -113,7 +112,7 @@
             <h3 class="font-semibold">Mettre à disposition des utilisateurs un service informatique</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Description de la compétence.
+            J'ai mis en place une interface utilisateur intuitive avec Figma et l'ai implémentée via Framer, permettant aux clients de facilement accéder aux informations du salon et prendre contact.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -124,7 +123,7 @@
             <h3 class="font-semibold">Organiser son développement professionnel</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Description de la compétence.
+            J'ai développé mes compétences en design UI/UX avec Figma et en gestion de CMS avec Framer, tout en apprenant à gérer un projet web complet de la conception à la livraison.
           </p>
         </div>
       </div>

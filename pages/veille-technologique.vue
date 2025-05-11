@@ -207,6 +207,31 @@
         </div>
       </a>
     </div>
+
+    <!-- Flink Agency Card -->
+    <div class="max-w-6xl mx-auto mt-16 mb-16">
+      <div class="bg-card rounded-lg shadow-xl p-8 border border-border hover:border-primary/80 transition-all duration-300 ease-in-out flex flex-col sm:flex-row items-center gap-8">
+        <!-- Content -->
+        <div class="text-center sm:text-left flex-grow">
+          <h3 class="text-2xl font-semibold text-foreground mb-2">Flink Agency</h3>
+          <p class="text-muted-foreground mb-5">
+            Nous créons des sites web modernes et performants, adaptés à vos besoins : sites vitrines, e-commerces et portfolios professionnels.
+          </p>
+          <a 
+            href="https://flink-agency.dev/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-primary-foreground bg-primary hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary transition-colors"
+          >
+            Visiter Flink Agency
+            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- End Flink Agency Card -->
   </div>
 </template>
 

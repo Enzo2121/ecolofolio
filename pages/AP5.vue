@@ -100,26 +100,7 @@
       </div>
     </div>
 
-    <!-- Project Screenshots -->
-    <div class="space-y-4">
-      <h2 class="text-2xl font-bold">Captures d'Écran</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 gap-6">
-        <div class="rounded-lg border overflow-hidden hover:shadow-md transition-shadow">
-          <img
-            src="/am1.png"
-            alt="Capture d'écran 1 du projet AMAP-BIO Client Lourd"
-            class="aspect-video w-full object-cover"
-          />
-        </div>
-        <div class="rounded-lg border overflow-hidden hover:shadow-md transition-shadow">
-          <img
-            src="/am2.png"
-            alt="Capture d'écran 2 du projet AMAP-BIO Client Lourd"
-            class="aspect-video w-full object-cover"
-          />
-        </div>
-      </div>
-    </div>
+
 
     <!-- Navigation -->
     <div class="flex justify-between pt-6">
