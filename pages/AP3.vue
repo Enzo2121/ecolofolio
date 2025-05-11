@@ -86,6 +86,18 @@
     <div class="space-y-4">
       <h2 class="text-2xl font-bold">Compétences Acquises</h2>
       <div class="space-y-6">
+        <div class="rounded-lg border p-4" style="border: 1px solid rgba(0, 0, 0, 0.5);">
+          <div class="flex items-center space-x-3 mb-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 text-primary">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+            <h3 class="text-lg font-semibold">Répondre aux incidents et aux demandes d'assistance et d'évolution</h3>
+          </div>
+          <ul class="list-disc list-inside text-sm text-muted-foreground space-y-1 pl-4">
+            <li>Traiter des demandes concernant les services réseau, système et applicatifs</li>
+          </ul>
+        </div>
+
         <div class="rounded-lg border p-4">
           <div class="flex items-center space-x-3 mb-3">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 text-primary">
@@ -96,18 +108,6 @@
           <ul class="list-disc list-inside text-sm text-muted-foreground space-y-1 pl-4">
             <li>Recenser et identifier les ressources numériques</li>
             <li>Gérer des sauvegardes</li>
-          </ul>
-        </div>
-
-        <div class="rounded-lg border p-4">
-          <div class="flex items-center space-x-3 mb-3">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6 text-primary">
-              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-            </svg>
-            <h3 class="text-lg font-semibold">Répondre aux incidents et aux demandes d'assistance et d'évolution</h3>
-          </div>
-          <ul class="list-disc list-inside text-sm text-muted-foreground space-y-1 pl-4">
-            <li>Traiter des demandes concernant les services réseau, système et applicatifs</li>
           </ul>
         </div>
 

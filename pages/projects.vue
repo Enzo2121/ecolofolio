@@ -3,7 +3,7 @@
     <div class="space-y-4 mb-8">
       <h1 class="text-4xl font-bold tracking-tighter">Mes Projets</h1>
       <p class="text-xl text-muted-foreground">
-        Découvrez les projets personnels et académiques que j'ai réalisés
+        Découvrez les projets académiques que j'ai réalisés
       </p>
     </div>
 

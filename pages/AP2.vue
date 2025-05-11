@@ -55,7 +55,7 @@
     <div class="space-y-4">
       <h2 class="text-2xl font-bold">Compétences Travaillées</h2>
       <div class="grid gap-4 sm:grid-cols-2">
-        <div class="rounded-lg border p-4">
+        <div class="rounded-lg border p-4" style="border: 1px solid rgba(0, 0, 0, 0.5);">
           <div class="flex items-center space-x-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
