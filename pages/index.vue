@@ -18,9 +18,7 @@
         <NuxtLink to="/cv" class="inline-flex h-10 items-center justify-center rounded-md bg-primary/80 px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90">
           Voir mon CV
         </NuxtLink>
-        <NuxtLink to="/contact" class="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground">
-          Me Contacter
-        </NuxtLink>
+
       </div>
     </section>
 
