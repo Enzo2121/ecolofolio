@@ -3,10 +3,10 @@
     <section class="flex flex-col items-center justify-center space-y-4 text-center py-12 md:py-20">
       <div class="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Bienvenue sur mon portfolio</div>
       <h1 class="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl md:max-w-4xl">
-        Bonjour, je suis Enzo un étudiant en développement web et logiciel
+        Enzo Eliazord, étudiant en BTS SIO
       </h1>
       <p class="max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-        Un étudiant passionné en informatique spécialisé dans le développement web et mobile.
+        Un étudiant en informatique spécialisé dans le développement web.
       </p>
       <div class="flex flex-wrap items-center justify-center gap-4">
         <NuxtLink to="/projects" class="inline-flex h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90">
@@ -58,7 +58,7 @@
             <h3 class="font-semibold">Développement Backend</h3>
           </div>
           <p class="mt-3 text-sm text-muted-foreground">
-            Développement d'applications serveur robustes et d'APIs pour alimenter les applications web.
+            Développement en PHP pour créer des solutions web dynamiques et performantes.
           </p>
         </div>
         <div class="rounded-lg border bg-card p-6 shadow-sm">
@@ -73,7 +73,7 @@
             <h3 class="font-semibold">Design UI/UX</h3>
           </div>
           <p class="mt-3 text-sm text-muted-foreground">
-            Conception d'interfaces utilisateur intuitives et esthétiques pour une expérience utilisateur optimale.
+            Conception d'interfaces utilisateur intuitives et esthétiques pour une expérience utilisateur optimale sur Figma.
           </p>
         </div>
       </div>

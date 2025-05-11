@@ -20,6 +20,21 @@
         </nav>
         <div class="flex items-center space-x-2">
           <ThemeToggle />
+          <a href="https://www.linkedin.com/in/enzo-eliazord-b6207b246/" target="_blank" rel="noopener noreferrer" class="text-foreground/60 hover:text-foreground/80 transition-colors" title="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect width="4" height="12" x="2" y="9"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+            <span class="sr-only">LinkedIn</span>
+          </a>
+          <a href="mailto:pro.enzoeliazord@gmail.com" class="text-foreground/60 hover:text-foreground/80 transition-colors" title="Email">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5">
+              <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+            </svg>
+            <span class="sr-only">Email</span>
+          </a>
           <button
             @click="mobileMenuOpen = !mobileMenuOpen"
             class="inline-flex items-center justify-center rounded-md p-2.5 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 md:hidden"

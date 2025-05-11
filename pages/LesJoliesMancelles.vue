@@ -77,43 +77,54 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
-            <h3 class="font-semibold">Développer la présence en ligne</h3>
-          </div>
-          <p class="mt-2 text-sm text-muted-foreground">
-            Participation à la gestion d'un projet de présence en ligne en développant une plateforme e-commerce complète pour une entreprise artisanale.
-          </p>
-        </div>
-        <div class="rounded-lg border p-4">
-          <div class="flex items-center space-x-2">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
-              <polyline points="20 6 9 17 4 12"></polyline>
-            </svg>
-            <h3 class="font-semibold">Développer une solution applicative</h3>
-          </div>
-          <p class="mt-2 text-sm text-muted-foreground">
-            Conception et développement d'une solution e-commerce incluant catalogues de produits, paniers d'achat et processus de paiement sécurisé.
-          </p>
-        </div>
-        <div class="rounded-lg border p-4">
-          <div class="flex items-center space-x-2">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
-              <polyline points="20 6 9 17 4 12"></polyline>
-            </svg>
-            <h3 class="font-semibold">Mettre à disposition un service</h3>
-          </div>
-          <p class="mt-2 text-sm text-muted-foreground">
-            Mise en œuvre d'une solution technique répondant aux besoins de l'entreprise avec un design responsive adapté à tous les appareils.
-          </p>
-        </div>
-        <div class="rounded-lg border p-4">
-          <div class="flex items-center space-x-2">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
-              <polyline points="20 6 9 17 4 12"></polyline>
-            </svg>
             <h3 class="font-semibold">Gérer le patrimoine informatique</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Mise en place de systèmes pour suivre l'inventaire des produits, gérer les niveaux de stock et automatiser les notifications de réapprovisionnement.
+            Description de la compétence.
+          </p>
+        </div>
+        <div class="rounded-lg border p-4">
+          <div class="flex items-center space-x-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <h3 class="font-semibold">Répondre aux incidents et aux demandes d'assistance et d'évolution</h3>
+          </div>
+          <p class="mt-2 text-sm text-muted-foreground">
+            Description de la compétence.
+          </p>
+        </div>
+        <div class="rounded-lg border p-4">
+          <div class="flex items-center space-x-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <h3 class="font-semibold">Développer la présence en ligne de l'organisation</h3>
+          </div>
+          <p class="mt-2 text-sm text-muted-foreground">
+            Description de la compétence.
+          </p>
+        </div>
+        <div class="rounded-lg border p-4">
+          <div class="flex items-center space-x-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <h3 class="font-semibold">Mettre à disposition des utilisateurs un service informatique</h3>
+          </div>
+          <p class="mt-2 text-sm text-muted-foreground">
+            Description de la compétence.
+          </p>
+        </div>
+        <div class="rounded-lg border p-4">
+          <div class="flex items-center space-x-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <h3 class="font-semibold">Organiser son développement professionnel</h3>
+          </div>
+          <p class="mt-2 text-sm text-muted-foreground">
+            Description de la compétence.
           </p>
         </div>
       </div>

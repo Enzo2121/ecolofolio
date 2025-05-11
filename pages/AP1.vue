@@ -103,7 +103,6 @@
             <h3 class="font-semibold">Répondre aux incidents et aux demandes d'assistance et d'évolution</h3>
           </div>
           <ul class="mt-2 list-disc pl-5 text-sm text-muted-foreground space-y-1">
-            <li>Collecter, suivre et orienter des demandes</li>
             <li>Traiter des demandes concernant les applications</li>
           </ul>
         </div>

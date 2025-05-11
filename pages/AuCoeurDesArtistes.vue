@@ -91,21 +91,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
-            <h3 class="font-semibold">Collecter, suivre et orienter des demandes</h3>
+            <h3 class="font-semibold">Gérer le patrimoine informatique</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Collecter, suivre et orienter des demandes concernant les services de présence en ligne, traitement des demandes concernant le site web.
-          </p>
-        </div>
-        <div class="rounded-lg border p-4">
-          <div class="flex items-center space-x-2">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
-              <polyline points="20 6 9 17 4 12"></polyline>
-            </svg>
-            <h3 class="font-semibold">Développer la présence en ligne de l'organisation</h3>
-          </div>
-          <p class="mt-2 text-sm text-muted-foreground">
-            Développement d'un site web pour l'organisation et optimisation de son référencement SEO.
+            Description de la compétence.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -116,7 +105,29 @@
             <h3 class="font-semibold">Répondre aux incidents et aux demandes d'assistance et d'évolution</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Orientation des demandes de l'entreprise concernant le site internet.
+            Description de la compétence.
+          </p>
+        </div>
+        <div class="rounded-lg border p-4">
+          <div class="flex items-center space-x-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <h3 class="font-semibold">Développer la présence en ligne de l'organisation</h3>
+          </div>
+          <p class="mt-2 text-sm text-muted-foreground">
+            Description de la compétence.
+          </p>
+        </div>
+        <div class="rounded-lg border p-4">
+          <div class="flex items-center space-x-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <h3 class="font-semibold">Mettre à disposition des utilisateurs un service informatique</h3>
+          </div>
+          <p class="mt-2 text-sm text-muted-foreground">
+            Description de la compétence.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -127,7 +138,7 @@
             <h3 class="font-semibold">Organiser son développement professionnel</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Développement de compétences techniques et collaboratives à travers l'apprentissage de Nuxt 3. 
+            Description de la compétence.
           </p>
         </div>
       </div>
