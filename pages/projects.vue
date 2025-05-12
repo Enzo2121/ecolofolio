@@ -54,7 +54,7 @@
 const projects = [
   {
     id: '1',
-    title: 'Site WordPress - SCISS', // AP1
+    title: 'Site WordPress - SCIS', // AP1
     category: 'site web',
     date: '2023',
     image: '/wordpress.png',

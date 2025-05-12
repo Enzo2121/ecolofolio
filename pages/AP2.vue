@@ -71,7 +71,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
-            <h3 class="font-semibold">Répondre aux incidents et aux demandes d’assistance et d’évolution</h3>
+            <h3 class="font-semibold">Répondre aux incidents et aux demandes d'assistance et d'évolution</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
             Traiter des demandes concernant les applications
@@ -82,10 +82,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
             </svg>
-            <h3 class="font-semibold">Développer la présence en ligne de l’organisation</h3>
+            <h3 class="font-semibold">Développer la présence en ligne de l'organisation</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Participer à l’évolution d’un site Web exploitant les données de l’organisation.
+            Participer à l'évolution d'un site Web exploitant les données de l'organisation.
           </p>
         </div>
         <div class="rounded-lg border p-4">
@@ -96,7 +96,7 @@
             <h3 class="font-semibold">Travailler en mode projet</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Analyser les objectifs et les modalités d’organisation d’un projet
+            Analyser les objectifs et les modalités d'organisation d'un projet
           </p>
         </div>
       </div>
@@ -126,27 +126,41 @@
           <tbody>
             <tr>
               <td class="border p-2 font-medium">Facilité d'utilisation</td>
-              <td class="border p-2">Très intuitif</td>
-              <td class="border p-2">Nécessite des plugins</td>
-              <td class="border p-2">Complexe pour les débutants</td>
+              <td class="border p-2">Très intuitif, idéal pour designers</td>
+              <td class="border p-2">Modéré, nécessite des plugins et une certaine configuration</td>
+              <td class="border p-2">Modéré, courbe d'apprentissage pour les non-designers</td>
             </tr>
             <tr>
               <td class="border p-2 font-medium">Personnalisation</td>
-              <td class="border p-2">Haute flexibilité</td>
-              <td class="border p-2">Limité sans extensions</td>
-              <td class="border p-2">Bonne mais avec des contraintes</td>
+              <td class="border p-2">Haute flexibilité visuelle</td>
+              <td class="border p-2">Très haute avec thèmes et plugins, peut devenir complexe</td>
+              <td class="border p-2">Très haute, contrôle granulaire du design</td>
             </tr>
             <tr>
               <td class="border p-2 font-medium">Performances</td>
-              <td class="border p-2">Optimisées pour la vitesse</td>
-              <td class="border p-2">Dépend des plugins</td>
-              <td class="border p-2">Correctes</td>
+              <td class="border p-2">Optimisées pour la vitesse, hébergement inclus</td>
+              <td class="border p-2">Dépend de l'hébergement, des thèmes et des plugins</td>
+              <td class="border p-2">Bonnes, hébergement inclus et optimisé</td>
             </tr>
             <tr>
               <td class="border p-2 font-medium">Apprentissage</td>
-              <td class="border p-2">Rapide</td>
-              <td class="border p-2">Intermédiaire</td>
-              <td class="border p-2">Long</td>
+              <td class="border p-2">Rapide pour les designers, interface visuelle</td>
+              <td class="border p-2">Intermédiaire, dépend des connaissances techniques et des plugins utilisés</td>
+              <td class="border p-2">Long, surtout pour maîtriser toutes les fonctionnalités de design</td>
+            </tr>
+            <tr>
+              <td class="border p-2 font-medium">Fonctionnalités SEO</td>
+              <td class="border p-2">Basiques intégrées</td>
+              <td class="border p-2">Excellentes avec plugins (ex: Yoast SEO)</td>
+              <td class="border p-2">Bonnes, avec des options de configuration</td>
+            </tr>
+            <tr>
+              <td class="border p-2 font-medium">Capacités de Blogging</td>
+              <td class="border p-2">CMS riche et optimisé pour le blogging</td>
+              <td class="border p-2">Excellent, conçu pour le blogging et le contenu</td>
+              <td class="border p-2">Robuste, bon pour le contenu dynamique</td>
+            </tr>
+            <tr>
             </tr>
           </tbody>
         </table>

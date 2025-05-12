@@ -86,6 +86,28 @@
     <div class="space-y-4">
       <h2 class="text-2xl font-bold">Compétences Acquises</h2>
       <div class="grid gap-4 sm:grid-cols-2">
+        <div class="rounded-lg border-2 border-primary bg-primary-foreground p-4 shadow-lg">
+          <div class="flex items-center space-x-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <h3 class="font-semibold">Organiser son développement professionnel</h3>
+          </div>
+          <p class="mt-2 text-sm text-muted-foreground">
+            Apprentissage et maîtrise de nouvelles technologies comme Nuxt 3, Nuxt Studio et Tailwind CSS pour créer une solution web moderne et performante.
+          </p>
+        </div>
+        <div class="rounded-lg border-2 border-primary bg-primary-foreground p-4 shadow-lg">
+          <div class="flex items-center space-x-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <h3 class="font-semibold">Mettre à disposition des utilisateurs un service informatique</h3>
+          </div>
+          <p class="mt-2 text-sm text-muted-foreground">
+            Création d'une documentation hybride détaillée combinant texte et vidéos pour permettre aux membres du collectif de gérer et maintenir facilement le site.
+          </p>
+        </div>
         <div class="rounded-lg border p-4">
           <div class="flex items-center space-x-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
@@ -117,28 +139,6 @@
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
             Conception et développement d'un site web complet présentant la boutique, le salon de thé, l'atelier et les artisans, améliorant significativement la visibilité du collectif sur Internet.
-          </p>
-        </div>
-        <div class="rounded-lg border p-4">
-          <div class="flex items-center space-x-2">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
-              <polyline points="20 6 9 17 4 12"></polyline>
-            </svg>
-            <h3 class="font-semibold">Mettre à disposition des utilisateurs un service informatique</h3>
-          </div>
-          <p class="mt-2 text-sm text-muted-foreground">
-            Implémentation d'un système de gestion de contenu intuitif permettant aux membres du collectif de mettre à jour facilement le site et le blog de manière autonome.
-          </p>
-        </div>
-        <div class="rounded-lg border p-4">
-          <div class="flex items-center space-x-2">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
-              <polyline points="20 6 9 17 4 12"></polyline>
-            </svg>
-            <h3 class="font-semibold">Organiser son développement professionnel</h3>
-          </div>
-          <p class="mt-2 text-sm text-muted-foreground">
-            Apprentissage et maîtrise de nouvelles technologies comme Nuxt 3, Nuxt Studio et Tailwind CSS pour créer une solution web moderne et performante.
           </p>
         </div>
       </div>

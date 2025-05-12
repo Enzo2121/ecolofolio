@@ -67,7 +67,7 @@
     
     <!-- Featured Articles Section -->
     <h2 class="text-3xl font-bold mb-6 text-center">Articles à la Une</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12 max-w-6xl mx-auto">
+    <div class="grid grid-cols-1 gap-6 mb-12 max-w-6xl mx-auto">
       <a 
         v-for="(article, index) in featuredArticles" 
         :key="index" 
@@ -253,35 +253,17 @@ const { articles, loading, error, fetchArticles, formatDate } = useArticles();
 // Set up reactive filter
 const activeFilter = ref('all');
 
-const featuredArticleLink = 'http://medium.com/@yujiisobe/measuring-developer-productivity-in-the-llm-era-b002cc0b5ab4';
-const placeholderTitle = 'À Découvrir: Mesurer la Productivité des Développeurs à l\'Ère des LLMs';
-const placeholderSnippet = 'Un article clé pour comprendre l\'évolution de la mesure de productivité avec l\'avènement des Grands Modèles de Langage.';
+const featuredArticleLink = 'https://medium.com/@manucet439/model-context-protocol-empowering-llms-through-contextual-standardization-8ac47876a4fa';
+const placeholderTitle = 'Model Context Protocol — Empowering LLMs Through Contextual Standardization';
+const placeholderSnippet = 'Model Context Protocol (MCP), introduced by Anthropic, has gradually gained traction and is now becoming a buzzword in the Large Language Model (LLM) ecosystem. As the demand for smarter, more adaptable AI grows, so does the need for a standardized way to feed tools, memory, and external data into these models.';
 
 const featuredArticles = ref([
   {
     title: placeholderTitle,
     link: featuredArticleLink,
-    imageUrl: '', // Vous pouvez ajouter une URL d'image ici
-    topic: 'llm', // Ou 'nuxt', ou autre selon l'article
-    pubDate: '2024-07-01', // Date de publication indicative
-    source: 'Medium',
-    contentSnippet: placeholderSnippet
-  },
-  {
-    title: placeholderTitle,
-    link: featuredArticleLink,
-    imageUrl: '',
-    topic: 'llm',
-    pubDate: '2024-07-01',
-    source: 'Medium',
-    contentSnippet: placeholderSnippet
-  },
-  {
-    title: placeholderTitle,
-    link: featuredArticleLink,
-    imageUrl: '',
-    topic: 'llm',
-    pubDate: '2024-07-01',
+    imageUrl: '', // You can add an URL d'image ici
+    topic: 'llm', 
+    pubDate: new Date().toISOString().split('T')[0], // Using today's date as a placeholder
     source: 'Medium',
     contentSnippet: placeholderSnippet
   }

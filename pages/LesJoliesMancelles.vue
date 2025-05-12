@@ -39,7 +39,7 @@
     <div class="space-y-4">
       <h2 class="text-2xl font-bold">Description du Projet</h2>
       <div class="text-muted-foreground">
-        <p>Pendant mon stage chez LesJoliesMancelles, j’ai conçu et développé un site vitrine pour présenter le salon, afficher les tarifs, faciliter les contacts et intégrer un blog. J’ai utilisé Figma pour le design et Framer comme CMS.</p>
+        <p>Pendant mon stage chez LesJoliesMancelles, j'ai conçu et développé un site vitrine pour présenter le salon, afficher les tarifs, faciliter les contacts et intégrer un blog. J'ai utilisé Figma pour le design et Framer comme CMS.</p>
       </div>
     </div>
 
@@ -71,6 +71,17 @@
     <div class="space-y-4">
       <h2 class="text-2xl font-bold">Compétences Acquises</h2>
       <div class="grid gap-4 sm:grid-cols-2">
+        <div class="rounded-lg border-2 border-primary bg-primary-foreground p-4 shadow-lg">
+          <div class="flex items-center space-x-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <h3 class="font-semibold">Développer la présence en ligne de l'organisation</h3>
+          </div>
+          <p class="mt-2 text-sm text-muted-foreground">
+            J'ai conçu et développé un site vitrine complet qui a permis d'améliorer la visibilité en ligne du salon, incluant la présentation des services, un système de contact et un blog pour le contenu marketing.
+          </p>
+        </div>
         <div class="rounded-lg border p-4">
           <div class="flex items-center space-x-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
@@ -91,17 +102,6 @@
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
             J'ai collaboré étroitement avec le client pour comprendre ses besoins et apporter des modifications au site selon ses retours, notamment pour l'intégration du blog et l'affichage des tarifs.
-          </p>
-        </div>
-        <div class="rounded-lg border p-4">
-          <div class="flex items-center space-x-2">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
-              <polyline points="20 6 9 17 4 12"></polyline>
-            </svg>
-            <h3 class="font-semibold">Développer la présence en ligne de l'organisation</h3>
-          </div>
-          <p class="mt-2 text-sm text-muted-foreground">
-            J'ai conçu et développé un site vitrine complet qui a permis d'améliorer la visibilité en ligne du salon, incluant la présentation des services, un système de contact et un blog pour le contenu marketing.
           </p>
         </div>
         <div class="rounded-lg border p-4">

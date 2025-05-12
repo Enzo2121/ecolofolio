@@ -88,10 +88,10 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5 text-primary">
               <polyline points="20 6 9 17 4 12"></polyline>
             </svg>
-            <h3 class="font-semibold">Espace Administrateur</h3>
+            <h3 class="font-semibold">Espace Adhérent</h3>
           </div>
           <p class="mt-2 text-sm text-muted-foreground">
-            Tableau de bord pour les gestionnaires de l'AMAP permettant de suivre les adhésions et les commandes.
+            Tableau de bord pour les adhérents de l'AMAP permettant de modifier les informations de leur compte et de consulter leur historique de commandes  .
           </p>
         </div>
         <div class="rounded-lg border p-4">
