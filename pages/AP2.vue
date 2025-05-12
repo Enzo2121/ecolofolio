@@ -3,7 +3,7 @@
     <!-- Header -->
     <div class="space-y-4">
       <div class="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Projet</div>
-      <h1 class="text-4xl font-bold tracking-tighter">Site Quiconces</h1>
+      <h1 class="text-4xl font-bold tracking-tighter">Site Quinconces</h1>
       <div class="flex flex-wrap items-center gap-2">
         <span class="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">Framer</span>
         <span class="inline-flex items-center rounded-md bg-muted px-2 py-1 text-xs font-medium">Figma</span>

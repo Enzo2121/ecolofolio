@@ -64,7 +64,7 @@ const projects = [
   },
   {
     id: '2',
-    title: 'Site Quiconces', // AP2
+    title: 'Site Quinconces', // AP2
     category: 'site web',
     date: '2023', // Assuming date based on AP1, adjust if needed
     image: '/quiconces.png',
